@@ -80,10 +80,10 @@ const showHeader = ()=>{
                 </div>
                 <div className={main} id="mainListDiv">
                     <ul>
-                        <li  style={{visibility: 'hidden'}} ><a href="#">Fragrances</a></li>
-                        <li style={{visibility: 'hidden'}}><a href="#">Skincare</a></li>
-                        <li style={{visibility: 'hidden'}}><a href="#">About</a></li>
-                        <li style={{visibility: 'hidden'}}><a href="#">Search</a></li>
+                        <li ><a href="#">Fragrances</a></li>
+                        <li ><a href="#">Skincare</a></li>
+                        <li ><a href="#">About</a></li>
+                        <li ><a href="#">Search</a></li>
 
                         <li style={{  display :"flex" , justifyContent :"space-around" }} className="shop" >
                         <Image src="/recherche.svg" width="20" height="20" />
@@ -92,7 +92,7 @@ const showHeader = ()=>{
                         
                     </ul>
                 </div>
-                <div className="media_button" >
+                <div className="media_button"  onClick={channge}>
                     <button className={media}  id="mediaButton" >
                         <span></span>
                         <span></span>

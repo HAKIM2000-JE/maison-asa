@@ -951,6 +951,7 @@
         display: block;
         position: relative;
         left: -40px;
+        top: -60px;
     }
 
     .banner {
@@ -1340,14 +1341,15 @@
 }
 
 .banner p{
-  font-size: 11px;
+  font-size: 18px;
   position: relative;
   transform: translate(1%);
 }
 
 .ajouter_btn_banner{
-  font-size: 10px;
+  font-size: 15px;
   transform: translate(-20%);
+  width: 60%;
 }
 
 .Insta_mobile{
@@ -1598,7 +1600,7 @@
 }
 
 .banner p{
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .ajouter_btn_banner{
