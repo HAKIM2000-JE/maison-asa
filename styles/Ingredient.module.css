@@ -664,7 +664,9 @@
 
 
 
-
+.arcade1{
+    display: none;
+}
 
 
 @media screen and (max-width:700px) {
@@ -677,6 +679,15 @@
     
     }
 
+
+    .arcade{
+        display: none;
+    }
+
+
+    .arcade1{
+        display: block;
+    }
 
     .texture{
         transform: translate(45%);
@@ -1061,7 +1072,7 @@
     }
 
     .products{
-        transform: translate(1%);
+        transform: translate(2%,10%);
     }
 
 
@@ -1214,13 +1225,15 @@
 .fq_container {
     position: relative;
    top: 110px;
-  transform: translate(10%);
+  transform: translate(10%,-50%);
 }
 
 .fq_container h1{
   margin-top:30px ;
   font-size: 18px;
   max-width: 350px;
+  position: relative;
+  left: 35px;
 }
 
 .fq_container h2{
@@ -1232,7 +1245,7 @@
 }
 
 .avis_container{
-  transform: translate(25%,10%);
+  transform: translate(25%,-10%);
 }
 
 
@@ -1275,7 +1288,7 @@
         display: block;
         position: relative;
         /* left: -140px; */
-        top: -150px;
+        top: -300px;
 
        
     }

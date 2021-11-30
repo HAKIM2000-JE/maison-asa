@@ -90,6 +90,7 @@ export default function Ingredient() {
  
           <div className={styles.arcade_container} >
                <img  src="/arcade (2).svg" className={styles.arcade}  />
+               <img  src="/_Groupe_ (11).svg" className={styles.arcade1}  />
              
           </div>
 
