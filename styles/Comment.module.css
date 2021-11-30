@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&family=Lato:wght@100&family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Butler_Regular";
+    src: url("../public/font/Butler_Regular.otf");
+
+    font-family: "Futura.ttc";
+    src: url("../public/font/Futura.ttc");
+
+
+    font-family: "Hatton-Ultralight";
+    src: url("../public/font/Hatton-Ultralight.otf");
+
+    font-family: "futura-light-bt";
+    src: url("../public/font/futura-light-bt.ttf");
+    
+    
+}
+
+
+
+
+.comment{
+    background-color: #EDE3DD;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40%;
+}
+
+.date{
+    color: #997647;
+    font-family: "futura-light-bt";
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+
+.title{
+
+    color: #997647;
+    font-family: "futura-light-bt";
+    font-size: 25px;
+    padding-left: 10px;
+
+}
+
+.rating{
+
+    padding-left: 10px;
+    position: relative;
+    top: -20px;
+
+}
+
+
+.impression{
+  
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    
+
+}
+
+.text{
+    padding-left: 10px;
+    font-size: 23px;
+    font-family: "futura-light-bt";
+    width: 300px;
+}
+
+
+.valide{
+    transform: translate(2%);
+    position: relative;
+    top: -40px;
+}
+
+@media screen and (max-width:700px) {
+    .text{
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .impression{
+  
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        
+    
+    }
+
+}

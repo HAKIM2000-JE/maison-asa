@@ -1,0 +1,1452 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&family=Lato:wght@100&display=swap');
+
+@font-face {
+    font-family: "Butler_Regular";
+    src: url("../public/font/Butler_Regular.otf");
+
+    font-family: "Futura.ttc";
+    src: url("../public/font/Futura.ttc");
+
+
+    font-family: "Hatton-Ultralight";
+    src: url("../public/font/Hatton-Ultralight.otf");
+
+    font-family: "futura-light-bt";
+    src: url("../public/font/futura-light-bt.ttf");
+
+    font-family: "Hatton-medium";
+    src: url("../public/font/Hatton-Medium.otf")
+    
+    
+}
+
+
+
+.title_ingredient{
+    position: relative;
+    top: 100px;
+    
+}
+
+.space{
+    display: none;
+}
+
+.carousel-indicators li { visibility: hidden; }
+
+.product{
+    display: grid;
+    place-items: center;
+    color: #997647;
+    font-size: 10px;
+
+    width: 250px;
+    text-align: center;
+
+}
+
+.products{
+    display: flex;
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family:"futura-light-bt";
+    padding-top: 20px;
+    background-color: transparent;
+
+    
+
+}
+
+
+.image_left_2{
+   display: none;
+}
+
+.products p{
+    font-size: 13px;
+}
+.product_img{
+    transform: translate(-2%,-95%);
+}
+
+
+.arcade_container{
+    position: absolute;
+    top: -110px;
+    z-index: -2;
+
+}
+.Ingredient{
+    position: absolute;
+    top: 95vh;
+    width: 100%;
+    
+    height: 90vh;
+
+    /* background-image: url("../public/arcade (2).svg"); */
+    background-size: cover;
+ 
+
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+
+.animation_video{
+    position: relative;
+    top: 120px;
+    left: -30px;
+}
+
+
+
+.product_animation{
+
+    margin-top: 60px;
+
+    width: 100vw;
+    display: grid;
+    place-items: center;
+
+}
+
+
+.ajouter_btn{
+    width: 25%;
+    background-color:#e0aa86;
+    color: white;
+    font-size: 20px;
+    padding: 18px;
+    border: none;
+    outline-width: 0;
+  
+    transform: translate(0%,-120%);
+    font-family:"futura-light-bt";
+   
+    
+    
+}
+
+
+.fq_container{
+    width: 80%;
+
+    position: relative;
+    top: -150px;
+    left: 10px;
+
+}
+
+.fq_container h1{
+    text-align: center;
+    
+    font-family: "futura-light-bt";
+
+    font-size: 40px;
+
+}
+
+
+.fq_container h2{
+    text-align: center;
+    
+    font-family: "futura-light-bt";
+
+    font-size: 20px;
+
+}
+
+.fq_row{
+    width: 100%;
+    background-color: #EDE3DD;
+   
+    cursor: pointer;
+    
+}
+
+
+.fq_row h3{
+    color: #e0aa86;
+    font: 18px;
+    padding: 10px;
+    font-family: "futura-light-bt";
+}
+
+
+.fq_row p{
+    font-family: "futura-light-bt";
+    background-color: #f4efea;
+    padding: 70px;
+    transition: top 0.3s;
+    
+}
+
+
+
+.Images{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  
+}
+
+
+.image_text_1{
+     
+   
+    position: relative;
+    bottom: 320px;
+    transform: translate(50%);
+}
+
+
+.image_text_2{
+   
+    position: relative;
+    bottom: 300px;
+    transform: translate(3%);
+}
+
+
+.utilisations{
+  
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: -100px;
+    width: 70%;
+
+   
+
+}
+
+.utilisations h1 {
+    text-align: center;
+    
+    font-family: "futura-light-bt";
+
+    font-size: 40px;
+
+}
+
+.utilisation_field{
+
+    display: grid;
+    place-items: center;
+
+    font-size: 13px;
+
+    width: 150px;
+    text-align: center;
+
+}
+
+
+.related{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.related>h1{
+
+    
+
+    text-align: center;
+    
+    font-family: "futura-light-bt";
+
+    font-size: 40px;
+}
+
+.related_list{
+    display: flex;
+    width: 80%;
+    transform: translate(13%,10%);
+    
+    justify-content: space-around;
+  
+}
+
+.texture{
+    display: grid;
+    place-items: center;
+  }
+  
+  
+  .texture_title1 {
+    font-size: 40px;
+    font-family:  'Lato', sans-serif;
+    text-align: end;
+    width: 400px;
+    font-weight: 30;
+    position: relative;
+    color: white;
+    bottom: 100%;
+    transform: translate(-40%);
+
+  }
+
+
+  .Insta_mobile{
+      display: none;
+  }
+  .texture_title2{
+
+    font-size: 40px;
+    font-family:  'Lato', sans-serif;
+    text-align: left;
+    width: 400px;
+    font-weight: 30;
+    position: relative;
+   
+    transform: translate(70%,-330%);
+
+  }
+
+  .controls{
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+      position: relative;
+      top: 200px;
+      z-index: 2;
+      cursor: pointer;
+  }
+
+  .texture_text{
+      width: 300px;
+      transform: translate(80%,-350%);
+      font-family: "futura-light-bt";
+     
+  }
+
+
+
+
+  .voyage{
+      display: grid;
+      place-items: center;
+      position: relative;
+      top: -350px;
+     width: 100vw;
+  
+
+  }
+
+  .ajouter_btn_banner{
+    width: 25%;
+    background-color:#e0aa86;
+    color: white;
+    font-size: 20px;
+    padding: 18px;
+    border: none;
+    outline-width: 0;
+  
+    transform: translate(0%,-20%);
+    font-family:"futura-light-bt";
+
+  }
+  .row{
+      width: 100%;
+  }
+  .voyage h1{
+    text-align: center;
+    
+    font-family: "futura-light-bt";
+
+    font-size: 40px;
+  }
+
+  .video{
+      width: 100%;
+      transform: translate(-2%);
+  }
+
+
+
+  .comment_section{
+    width: 100vw;
+    background-color: #f4efea;
+    /* padding-left: 20px; */
+    display: grid;
+    place-items: center;
+    padding: 20px;
+
+  }
+
+  
+.comment_section_header{
+    display: flex;
+    width: 100%;
+     
+    
+    
+
+    
+    
+}
+
+
+.other_comment{
+    display: flex;
+    
+    flex: 1;
+
+}
+
+.texture_small2{
+    display: none;
+}
+
+
+.comment_section_header_left h1{
+    font-size: 45px;
+    font-family: "futura-light-bt";
+}
+
+
+.comment_section_header_left p{
+    font-family: "futura-light-bt";
+    font-size: 25px;
+    padding-left: 20px;
+    width: 500px;
+    position: relative;
+    bottom: 50px;
+}
+
+.comment_section_header_right{
+    margin-top: 100px;
+}
+
+
+.comment_section_body{
+    width: 80vw;
+    display: flex;
+     align-self: center;
+  
+    justify-content: space-between;
+    transform: translate(-5%);
+}
+
+
+.pagination{
+    transform: translate(370%,30%);
+   
+}
+
+
+.product_container{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider{
+    
+    margin: 0 auto; 
+    width: 50%;
+    
+    display: grid;
+    place-items: center;
+ 
+    
+}
+
+
+.certif_row{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.banner{
+    width: 100%;
+    background: url("../public/image4.png");
+    display: grid;
+    place-items: center;
+    color: white;
+    padding: 100px;
+    background-size: cover;
+}
+
+.banner h1{
+    font-family:"Hatton-medium" ;
+}
+
+
+.banner p {
+    font-family:"futura-light-bt";
+    width: 600px;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.Insta{
+    width: 100vw;
+    transform: translate(-1%);
+}
+
+.border{
+    width: 101%;
+    background-color: #e0aa86;
+    height: 5px;
+    border: none;
+}
+
+.prize{
+    width: 100%;
+    background: url("../public/image5.png");
+    display: grid;
+    place-items: center;
+
+    padding: 100px;
+    background-size: cover;
+
+}
+
+
+.prize h1{
+    font-family:"Hatton-medium" ;
+}
+
+
+.prize p {
+    font-family:"futura-light-bt";
+    width: 80%;
+    text-align: center;
+    margin-bottom: 7%;
+    font-size: 40px;
+}
+
+.avis_container{
+    width: 80%;
+    margin: 10px;
+}
+
+.avis_container h1{
+    text-align: center;
+    
+    font-family: "futura-light-bt";
+
+    font-size: 40px;
+
+}
+
+.utilisations_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "futura-light-bt";
+}
+
+.utilisations_row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.texture_small{
+    display: none;
+}
+
+
+
+.texture_small2{
+    display: none;
+}
+
+
+.texture_meduim{
+    display: none;
+}
+
+
+@media screen and (max-width:1300px) {
+
+   
+.related{
+    display: none;
+}
+   
+    .products{
+        
+        transform: translate(-10%,0%);
+
+  
+ 
+    
+   
+    
+    
+    }
+
+
+    .fq_container{
+        transform: translate(-5%);
+        
+    }
+
+
+    .avis_container{
+        transform: translate(-5%);
+
+    }
+
+    .certif_row{
+        width: 70%;
+        position: relative;
+        
+    }
+
+        .Ingredient{
+            position: absolute;
+            top: 95vh;
+            width: 100%;
+            
+        height: 90vh;
+    
+        background-image: none;
+     
+    
+        display: grid;
+        place-items: center;
+        
+        
+    }
+    
+
+
+
+    .product_animation{
+
+        transform: translate(0%);
+
+    }
+
+    .ajouter_btn{
+        width: 25%;
+    background-color:#e0aa86;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+    transform: translate(-20%,-100%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family:"futura-light-bt";
+    }
+  
+
+  .utilisations{
+      position: relative;
+      top: 100px;
+      margin-bottom: 100px;
+  }
+  .texture{
+    position: relative;
+    top: 130px;
+
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+    .arcade_container{
+        position: absolute;
+        top: 0px;
+        z-index: -2;
+    
+    }
+
+
+    .Images{
+        display: block;
+    }
+
+    .image_left_1{
+        display: none;
+    }
+
+    .image_left_2{
+        display: flex;
+    }
+
+
+    .fq_container{
+       transform: translate(-10%);
+       width: 80%;
+       
+    }
+  
+     
+.avis_container{
+    transform: translate(-10%);
+       width: 80%;
+       
+
+}
+    .texture_small{
+        display: block;
+        position: relative;
+        left: -50px;
+        margin: 30px;
+
+    }
+
+    .texture_big{
+        display: none;
+    }
+
+    .products{
+        display: block;
+        transform: translate(5%,0%);
+      
+        width: 80%;
+        margin: 0 auto;
+       
+
+  
+ 
+    
+   
+    
+    
+    }
+
+    .texture_title1{
+        font-size: 18px;
+        position: relative;
+       left: -80px;
+       top: -130px;
+    }
+
+
+    .texture_title2{
+        font-size: 16px;
+        position: relative;
+        top: -130px;
+        left: -40px;
+        width: 150px;
+    }
+    .utilisations{
+        position: relative;
+        left: -50px;
+        top: -50px;
+    }
+
+    .Ingredient{
+        position: absolute;
+        top: 95vh;
+        width: 100%;
+        
+        height: 90vh;
+    
+        background-image: none;
+     
+    
+        display: grid;
+        place-items: center;
+        
+        
+    }
+
+    .texture_text{
+        font-size: 10px;
+        position: relative;
+        top: 80px;
+        left: -55px;
+        width: 150px;
+      
+
+    }
+
+    .utilisations_list{
+        display: grid;
+        place-items: center;
+        width: 100%;
+        position: relative;
+        left: 40px;
+      
+    }
+
+
+    .utilisations_row{
+        width: 100%;
+
+    }
+
+
+    .utilisations_row p{
+        font-size: 12px;
+
+    }
+
+    .utilisation_field{
+        width: 100%;
+        font-size: 10px;
+        margin: 20px;
+    }
+
+    .utilisation_field p{
+        width: 150px;
+    }
+
+    .utilisations h1{
+
+        font-size: 20px;
+        position: relative;
+       
+
+
+    }
+    
+
+
+
+    .product_animation{
+
+        transform: translate(-5%);
+
+    }
+
+    .ajouter_btn{
+        width: 25%;
+    background-color:#e0aa86;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+    transform: translate(-30%,-80%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    font-family:"futura-light-bt";
+    }
+
+
+
+    .voyage h1{
+        font-size: 20px;
+        position: relative;
+        left: -30px;
+        top: 50px;
+    }
+
+    .video{
+        margin-top: 100px;
+        position: relative;
+        left: -40px;
+    }
+
+    .comment_section{
+        position: relative;
+        left: -25px;
+    }
+
+    .comment_section_header{
+        position: relative;
+        left: 10%;
+    }
+    .comment_section_header_left h1{
+        display: none;
+    }
+
+    .comment_section_header_left p {
+        display: none;
+    }
+
+    .comment_section_header_right{
+        display: none;
+    }
+
+    .ajouter_btn_banner{
+        width: 25%;
+        background-color:#e0aa86;
+        color: white;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        outline-width: 0;
+      
+        transform: translate(-40%,-20%);
+        font-family:"futura-light-bt";
+    
+      }
+
+      .banner h1{
+         font-size: 16px;
+         position: relative;
+         left: -10%;
+      }
+
+      .banner p{
+          font-size: 14px;
+          position: relative;
+          width: 350px;
+         left: -10%;
+         margin: 20px;
+      }
+ 
+
+      .Insta{
+          display: none;
+      }
+
+      .Insta_mobile{
+        display: block;
+        position: relative;
+        left: -40px;
+    }
+
+    .prize h1{
+        font-size: 20px;
+    }
+
+    .prize p{
+        font-size: 15px;
+        position: relative;
+        left: -30px;
+        width: 350px;
+        
+    }
+     
+    .product_desc{
+        visibility: hidden;
+    }
+
+
+    .title_ingredient img{
+        position: relative;
+        
+
+        width:300px;
+        transform: translate(-10%);
+        
+    }
+
+    .animation_video{
+        position: relative;
+        width: 380px;
+    }
+    
+}
+
+
+@media screen and (max-width:580px) {
+
+    
+
+    .certif_row{
+        position: relative;
+        left: 30px;
+    }
+  
+
+    .texture_text{
+        margin-top: 20px;
+        
+    }
+
+
+    .prize {
+        position: relative;
+        left: -40px;
+    }
+
+
+    
+    .products{
+        transform: translate(-10%,-2%);
+    }
+
+
+}
+
+
+@media screen and (max-width:450px) {
+
+    .utilisations_row{
+        /* display: block;
+        position: relative;
+        left: 15px; */
+
+        width: 75%;
+        position: relative;
+        
+        top: -180px;
+    }
+
+
+
+    .product_animation{
+        position: relative;
+        left: -50px;
+        top: -60px;
+    }
+    .certif_row{
+       width: 300px;
+     
+  }
+
+  .product{
+      margin-top: 20px;
+  }
+
+
+  .ajouter_btn{
+      position: relative;
+      left: -50px;
+      top: -30px;
+      font-size: 12px;
+    
+     
+  }
+
+
+  .utilisations {
+      position: relative;
+      /* left: -120px; */
+      left: -105px;
+
+  }
+
+
+  .texture{
+      position: relative;
+      left: 55px;
+  }
+  
+  .texture_small{
+      display: none;
+  }
+
+  .texture_meduim{
+      display: block;
+      position: relative;
+      left: -150px;
+  }
+
+
+  .texture_title1{
+      font-size: 15px;
+      position: relative;
+      left: -190px;
+      top: -80px;
+  }
+
+
+  .texture_title2{
+       font-size: 15px;
+       position: relative;
+       left: -150px;
+       top: -50px;
+  }
+
+
+  .texture_text{
+       left: -160px;
+       top: 60px;
+       font-size: 8px;
+       max-width: 130px;
+      
+  }
+
+
+  .voyage{
+      position: relative;
+      left: -85px;
+      margin-top: 50px;
+  }
+
+
+.comment_section{
+    position: relative;
+    left: -130px;
+}
+
+
+.banner{
+    position: relative;
+    left: -80px;
+
+}
+
+.Insta_mobile{
+    width: 50%;
+    left: -150px;
+}
+
+.prize{
+    position: relative;
+    left: -85px;
+}
+
+
+.certif_row{
+    position: relative;
+    top: -60px;
+  
+}
+
+
+.fq_row{
+    max-width: 300px;
+    position: relative;
+    left: 40px;
+    top: -50px;
+}
+
+
+.fq_row h3{
+    font-size: 14px;
+    
+}
+
+.fq_row p{
+  font-size: 12px;
+  padding: 8px;
+  
+  
+}
+
+.fq_container {
+    position: relative;
+   top: 110px;
+}
+
+.fq_container h1{
+  margin-top:30px ;
+  font-size: 18px;
+  max-width: 350px;
+}
+
+.fq_container h2{
+  font-size: 13px;
+  max-width: 380px;
+  margin-bottom: 10px;
+}
+
+.avis_container{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  left: -60px;
+  top: 50px;
+}
+
+
+.avis_container h1{
+  font-size: 18px;
+}
+
+
+.banner h1{
+  font-size: 14px;
+  position: relative;
+  left: 1px;
+
+}
+
+.banner p{
+  font-size: 11px;
+  position: relative;
+  left: -2px;
+}
+
+.ajouter_btn_banner{
+  font-size: 10px;
+  width: 40%;
+  padding: 5px;
+  position: relative;
+  left: 60px;
+}
+
+.Insta_mobile{
+  position: relative;
+  margin-left: 120px;
+  
+  
+}
+
+.prize p {
+    position: relative;
+    left: 0px;
+}
+
+
+ .texture_small2{
+        display: block;
+        position: relative;
+        left: -140px;
+
+       
+    }
+
+
+
+    .texture_text{
+        display: none;
+    }
+
+    .texture_title1 {
+        display: none;
+    }
+
+
+    .texture_title2{
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width:400px) {
+
+
+    
+
+   
+      .utilisations_row{
+          /* display: block;
+          position: relative;
+          left: 15px; */
+
+          width: 75%;
+          position: relative;
+          right: 20px;
+          top: -30px;
+      }
+
+
+      .utilisations{
+          position: relative;
+          top: -10px;
+          display: none;
+      }
+
+
+
+      .product_animation{
+          position: relative;
+          left: -70px;
+          top: -60px;
+      }
+      .certif_row{
+         width: 300px;
+       
+    }
+
+    .product{
+        margin-top: 20px;
+    }
+
+
+    .ajouter_btn{
+        position: relative;
+        left: -70px;
+        top: -30px;
+        font-size: 12px;
+      
+       
+    }
+
+
+    .utilisations {
+        position: relative;
+        /* left: -120px; */
+        left: -120px;
+
+    }
+
+
+    .texture{
+        position: relative;
+        left: 35px;
+    }
+    
+    .texture_small{
+        display: none;
+    }
+
+
+    .texture_meduim{
+        display: none;
+    }
+    
+    
+
+    .texture_title1{
+        font-size: 15px;
+        position: relative;
+        left: -190px;
+        top: -80px;
+    }
+
+
+    .texture_title2{
+         font-size: 15px;
+         position: relative;
+         left: -150px;
+         top: -50px;
+    }
+
+
+    .texture_text{
+         left: -160px;
+         top: 60px;
+         font-size: 8px;
+         max-width: 130px;
+        
+    }
+
+
+    .voyage{
+        position: relative;
+        left: -85px;
+        margin-top: 50px;
+    }
+
+
+  .comment_section{
+      position: relative;
+      left: -130px;
+  }
+
+
+  .banner{
+      position: relative;
+      left: -80px;
+
+  }
+
+  .Insta_mobile{
+      width: 50%;
+      left: -150px;
+  }
+
+  .prize{
+      position: relative;
+      left: -85px;
+  }
+
+
+  .certif_row{
+      position: relative;
+      top: -60px;
+      left: -25px;
+  }
+
+
+  .fq_row{
+      max-width: 300px;
+      position: relative;
+      left: 20px;
+  }
+  .fq_row h3{
+      font-size: 10px;
+      
+  }
+
+  .fq_row p{
+    font-size: 9px;
+    padding: 8px;
+    
+    
+}
+
+
+.fq_container h1{
+    margin-top:30px ;
+    font-size: 18px;
+    max-width: 320px;
+}
+
+.fq_container h2{
+    font-size: 13px;
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+ 
+.avis_container{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: -80px;
+    
+}
+ 
+
+.avis_container h1{
+    font-size: 18px;
+    
+}
+
+
+.banner h1{
+    font-size: 14px;
+
+}
+
+.banner p{
+    font-size: 11px;
+}
+
+.ajouter_btn_banner{
+    font-size: 10px;
+    width: 30%;
+    padding: 5px;
+}
+
+.Insta_mobile{
+    position: relative;
+    margin-left: 60px;
+    
+    
+}
+}
+
+
+
+
+@media screen and (max-width:380px) {
+
+
+    .prize p {
+        position: relative;
+        left: -19px;
+    }
+
+
+    
+
+
+
+    .products{
+        transform: translate(-10%,-30%);
+    }
+
+   .avis_container{
+     transform: translate(10%);
+   }
+}

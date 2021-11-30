@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Butler_Regular";
+    src: url("../public/font/Butler_Regular.otf");
+
+    font-family: "Futura.ttc";
+    src: url("../public/font/Futura.ttc");
+
+
+    font-family: "Hatton-Ultralight";
+    src: url("../public/font/Hatton-Ultralight.otf");
+
+    font-family: "futura-light-bt";
+    src: url("../public/font/futura-light-bt.ttf");
+    
+    
+}
+
+.pub{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    height: 85px;
+    padding: 20px;
+    box-shadow: 1px -8px 5px 0px rgba(148,148,148,0.43);
+    -webkit-box-shadow: 1px -8px 5px 0px rgba(148,148,148,0.43);
+    -moz-box-shadow: 1px -8px 5px 0px rgba(148,148,148,0.43);
+
+
+
+}
+
+.left h1{
+
+    font-family:"Butler_Regular" ;
+    font-size: 15px;
+    font-weight: lighter;
+ 
+
+}
+
+
+
+.left h5 {
+
+    font-family: "futura-light-bt";
+    position: relative;
+    font-size: 12px;
+    top: 5px;
+
+    
+   
+   
+    font-weight: 500;
+   
+
+}
+
+.center{
+    flex: 0.5;
+}
+.prodcut_title{
+    font-family:"Hatton-Ultralight";
+     font-size: 15px;
+     font-weight: lighter;
+     text-align: center;
+     position: relative;
+     left: 10%;
+    
+    
+     font-family: "futura-light-bt";
+}
+
+
+
+.right{
+    flex: 0.2;
+}
+
+
+.ajouter_btn{
+    width: 110%;
+    background-color:#e0aa86;
+    color: white;
+    font-size: 13px;
+    padding: 13px;
+    border: none;
+    outline-width: 0;
+
+    font-family:"futura-light-bt";
+    font-weight: bold;
+    
+}
+
+
+@media screen and (max-width:1200px) {
+
+.center{
+    display: none;
+}
+
+
+}

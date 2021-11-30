@@ -1,0 +1,331 @@
+.banner{
+    
+     position: absolute;
+     top: 0;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 95vh;
+      width: 100vw;
+   
+    display: grid;
+    place-items: center;
+
+}
+
+.banner_image{
+    width: 100%;
+    height: 95vh;
+    background-image: url("../public/backgound.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+
+
+  
+}
+
+.banner_image1{
+    width: 100%;
+    height: 95vh;
+    background-image: url("../public/délices-visage-creme_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+.banner_image3{
+
+    width: 100%;
+    height: 95vh;
+    background-image: url("../public/délices-visage-creme_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.controls{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50vh;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.content{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+@font-face {
+    font-family: "Butler_Regular";
+    src: url("../public/font/Butler_Regular.otf");
+
+    font-family: "Futura.ttc";
+    src: url("../public/font/Futura.ttc");
+
+
+    font-family: "Hatton-Ultralight";
+    src: url("../public/font/Hatton-Ultralight.otf");
+
+    font-family: "futura-light-bt";
+    src: url("../public/font/futura-light-bt.ttf");
+    
+    
+}
+
+
+.avis{
+    
+  
+    
+    display: grid;
+    place-items: center;
+    background: rgba(250, 250, 250, 0.2);
+    padding: 10px;
+    height: 60vh;
+}
+
+
+.avis h1{
+    font-family:"Butler_Regular" ;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+   
+     
+}
+
+
+.avis h5 {
+
+    font-family: "futura-light-bt";
+    position: relative;
+   
+    text-align: center;
+    font-weight: 500;
+   
+
+}
+
+.avis_image{
+    position: relative;
+    bottom: 50px;
+}
+
+.prodcut_title{
+    font-family:"Hatton-Ultralight";
+     font-size: 15px;
+     font-weight: lighter;
+     position: relative;
+     bottom: 80px;
+     font-family: "futura-light-bt";
+}
+
+
+
+.prodcut_description{
+     width:400px;
+     margin: 15px;
+  
+    font-size: 15px;
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+
+     font-family: "futura-light-bt";
+}
+
+
+.prodcut_price{
+    color: #997647;
+    font-size: 20px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -50px;
+    
+
+}
+
+.ajouter_btn{
+        width: 80%;
+        background-color:#e0aa86;
+        color: white;
+        font-size: 15px;
+        padding: 18px;
+        border: none;
+        outline-width: 0;
+
+        font-family:"futura-light-bt";
+        font-weight: bold;
+        position: relative;
+        bottom: 50px;
+}
+
+.info{
+    color: #997647;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+    
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+     .avis{
+         width: 100%;
+         transform: translate(5%,20%);
+        
+     }
+
+     .info{
+         display: none;
+     }
+
+     .banner_image{
+        width: 100%;
+        height: 95vh;
+        background-image: url("../public/ELEMENTS-v2-mobile-05.png"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+        
+    
+    
+      
+    }
+    
+
+
+    
+    .banner_image1{
+        width: 100%;
+        height: 95vh;
+        background-image: url("../public/ELEMENTS-v2-mobile-06.png"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+        
+    
+    
+      
+    }
+    
+    .banner_image2{
+        width: 100%;
+        height: 95vh;
+        background-image: url("../public/ELEMENTS-v2-mobile-07.png"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+        
+    
+    
+      
+    }
+    
+    
+
+}
+
+
+
+@media screen and (max-width:450px) {
+      
+
+    .logo{
+        position: relative;
+        left: -40px;
+    }
+  
+    .avis{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .avis h1{
+        font-family:"Butler_Regular" ;
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+       
+         
+    }
+
+
+    .avis h3 {
+
+        font-family: "Futura.ttc" ;
+        position: relative;
+        bottom: 20px;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 13px;
+       
+    
+    }
+
+
+    .avis_image{
+        position: relative;
+        bottom: 10px;
+    }
+    
+  
+
+    .prodcut_title{
+        font-family:"Hatton-Ultralight";
+         font-size: 13px;
+        
+         position: relative;
+         bottom: 120px;
+         
+    }
+
+
+    .prodcut_description{
+         font-size: 15px;
+          width: 100%;
+          
+    }
+
+
+    .ajouter_btn{
+        position: relative;
+        
+    }
+  
+  }
+
+
+  @media screen and (max-width:450px) {
+
+    .avis{
+        position: relative;
+        left: -7px;
+    }
+
+
+  }
+  
+
+  @media screen and (max-width:380px) {
+
+
+    
+
+
+
+
+  }

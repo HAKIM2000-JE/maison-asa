@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&family=Lato:wght@100&display=swap');
+@font-face {
+    font-family: "Butler_Regular";
+    src: url("../public/font/Butler_Regular.otf");
+
+    font-family: "Futura.ttc";
+    src: url("../public/font/Futura.ttc");
+
+
+    font-family: "Hatton-Ultralight";
+    src: url("../public/font/Hatton-Ultralight.otf");
+
+    font-family: "futura-light-bt";
+    src: url("../public/font/futura-light-bt.ttf");
+    
+    
+}
+
+
+
+
+
+.avis{
+    
+  
+    
+    display: grid;
+    place-items: center;
+    background: rgba(104, 104, 104, 0.2);
+    transform: translate(0%,-100%);
+    height: 150px;
+    max-width: 300px;
+  
+}
+
+
+.avis h1{
+    font-family:"Butler_Regular" ;
+    font-size: 18px;
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    font-weight: lighter;
+    text-align: center;
+   
+     
+}
+
+
+.avis h3 {
+
+    font-family: "Futura.ttc" ;
+    position: relative;
+    bottom: 2px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: lighter;
+   
+
+}
+
+.avis_image{
+    position: relative;
+    bottom: 60px;
+    display: none;
+}
+
+
+.prodcut_price{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    
+    
+
+}
+
+
+.ajouter_btn{
+    width: 100%;
+    background-color:#e0aa86;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+
+    font-family:  'Lato', sans-serif;
+    font-weight: bold;
+    transform: translate(0%,-350%);
+}
+
+
+@media screen and (max-width:1100px) {
+  .product{
+      margin-left:10px ;
+      margin-right:10px ;
+
+  }
+
+
+
+}

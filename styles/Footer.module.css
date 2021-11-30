@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&family=Lato:wght@100&display=swap');
+@font-face {
+    font-family: "Butler_Regular";
+    src: url("../public/font/Butler_Regular.otf");
+
+    font-family: "Futura.ttc";
+    src: url("../public/font/Futura.ttc");
+
+
+    font-family: "Hatton-Ultralight";
+    src: url("../public/font/Hatton-Ultralight.otf");
+
+    font-family: "futura-light-bt";
+    src: url("../public/font/futura-light-bt.ttf");
+
+    font-family: "Hatton-medium";
+    src: url("../public/font/Hatton-Medium.otf")
+    
+    
+}
+
+
+.footer_conatiner{
+    width: 100%;
+    background-color: #DB9D7B;
+
+
+}
+
+.newLetter {
+    
+
+
+    font-size: 15px;
+
+    font-family: "futura-light-bt";
+    color: white;
+   
+    padding-left: 70px;
+    padding-top: 20px;
+
+
+}
+
+
+.newInupt{
+    width: 40%;
+    height: 50px;
+    background-color: #eac6ae;
+    border: none;
+     margin-left: 70px;
+  
+}
+
+
+.footer{
+    background-color: #DB9D7B;
+    width: 100%;
+    transform: translate(-2%);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+    
+
+}
+
+.left{
+  width: 70%;
+  margin-left: 20px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+.option h1{
+
+    font-size: 15px;
+
+    font-family: "futura-light-bt";
+
+}
+
+
+.left p{
+
+    font-size: 12px;
+
+    font-family: "futura-light-bt";
+    color: white;
+
+}
+
+
+.right{
+    transform: translate(-100%,10%);
+}
+
+@media screen and (max-width:700px) {
+    .footer{
+        display: block;
+      
+    }
+
+
+    .left{
+        padding: 20px;
+    }
+
+    .options{
+        display: block;
+     
+    }
+    .right{
+        position: absolute;
+        right: 100px;
+        top: 100px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+
+    .option{
+        margin-top: 40px;
+    }
+
+
+    .footer{
+        background-color: #DB9D7B;
+        width: 100%;
+        transform: translate(-5%);
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1px;
+        padding-top: 20px;
+        padding-right: 50px;
+        
+        
+    
+    }
+}

@@ -1,0 +1,42 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 55" width="408" height="55">
+	<title>avis</title>
+	<defs>
+		<image  width="33" height="52" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA0CAMAAAAzIaF1AAAAAXNSR0IB2cksfwAAAXFQTFRF////wZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaA0oHDZQAAAHt0Uk5TAAg+znYBLPShBlv/vhGV1iDI6TYc6/VSRPz9cnwDtAzdGTD34i1h8Uab+2XLiB/tqQlHxRV+2QK15xLeMflZZ/6ON6jPvA+Pfd8nkJLTP9wEzKtsWjU9rib6c+E4xreK7GjJHkmXB/P2XuUu0bIFuHt4HVeYO/hgIzpf5c1uqgAAAXdJREFUeJyF1fkjQkEQB/BNHjKVq6iQp5ArRIkOheS+ct83Ifftr7fvvQ4/7MybX7+fX2Znd5YxQxnTK2O5pCMqKqtMOqQazBYdYoWaWlqY6qC+gSY2OzQ20cThBFczTVoAwNpKCcnNibuNIhaZE2M7RTxeTjo6KdLFBfi6KdKjkN4+Qhj6FQJ+YpADgyoZCuBk2KWSkSBOQqqAUXyQ4TGNjHtQEolqxOdAScyrkfgEShKagCQ6a8mcJzCJHcxUQcA0dsNTRTKTFovZooCU+DrMlQTML4jE4j8BSyKxXMq9CRFYKYHVmAisrRdBRtyKv5DHN4Q520zmQXRLDLbjebCDrINd7R7C3j4yk6CsgYNDcc4CRxo4jiBAyqi5KxRGADtRwSn+6s5UcH6BgkunAq6uUeC54Xn2Fs2Z7U4Z1D0O0jkOHoit+vgE4HymljffHHb8kfF64U2+UuAtCe94k7w+PrNfVM6+7TK+CpQy5Nw6X8fPr84P9QdPwDDE3usaCAAAAABJRU5ErkJggg=="/>
+		<image  width="33" height="52" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA0CAMAAAAzIaF1AAAAAXNSR0IB2cksfwAAAXpQTFRF////wZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAiGN3LQAAAH50Uk5TACgdG+RGYfxqm/+MAwjNrQog7ckXSf7fge9AufleFOGAATX4ogZovxGh19HpNyP1U079dIWXu7AV4sUTNh5pLqfw7FV3b4rPo70O0PtW4zt/8nsCBcPnPpm8GEU698AZ64fZByKfCYZlZOA0uPEa7koNziG1npZmUbolg1s/vy+jfgAAAXlJREFUeJyF1ek/AkEYB/ApJR6hyCqlVM4kKkeEkLtQ7vu+b7mv/91u06oX8zzN29/3M7vPPM/sMqbRsiKrRKcvRkoNZcVIOVQYaVFZBdUmmphroNZCkzoJ6jU0sQLYGkhhtAM4GknidAFITW6KeLwA0NxCkVZZQFs7RToU4jMTwtSpEH8XQQI2hXT3ECQoKSQUJkgvZFcf3khjPycDeCMjg5wMRVEy7ODEN4KSUS5AF0PJWI6Mo72OTuSII46RyZwAaQrbxKASmEbGYeZfwKx4HObyAuzzIpEoEMkFAbDk3wMWl0RbpAqeEREBbVrNDcsrIrC6poL1DXGpmyrY2hYD9UANKWSK4hIH/h1xznb3ONg/QEDgkHfsCJvT6HEW2IJIzk54nYlTDLj5cJ2dY4BdKLn3Es3ZlQKub3CgT8rgFr8lLHYnF2klvqr38lV7eMRz9pQByDwTwPgC8IoXKa838L5TOQuDy0OCj9CnkwRf6e8iv46fXzpnfwaJMNHPvmIbAAAAAElFTkSuQmCC"/>
+		<image  width="7" height="55" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAA3CAMAAAD39qBMAAAAAXNSR0IB2cksfwAAAP9QTFRF////wZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaAwZaA7eb75AAAAFV0Uk5TACOiAgHtLij/aF2dj8+9+QTmJw9OMXFTk7GNzajowf3ZGu8wQxVUYm8+foNPVZVfn1mZRoY/f3AmZRdWBkXyM9obxanpkNB0tHMRUCq/+gUpae6kA2E6+2wAAADTSURBVHicZdHXUkIBDATQBRRWRcWGvV7Eir2LYkHEhvX/v8XN3hlnHPJynpJJsgCQQVrZnOnpzdsC+2w/B2yRg3aIw6VwhBwVYyTH5YQsy0k5JctyWs7IWTkn5+WCXNSAJcllYCVMUApYwaqtImPXkNh1bNhNVOwWtm3xz5rdwa7d63LfHnT1HdojHNsTn0Ge4sye48Jeom6vgOuwAdyEt8BdWAfuRVP3PciWfJRtWfNaQEM+yWf5Ev9rkq/hGzvvcGPr378/+GlzX0maz/dPauT1CzDJF1GhXAaXAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 23px;fill: #4b3223;font-weight: 300;font-family: "Gotham HT F" } 
+		.txt1 { font-size: 23px;fill: #c19680;font-weight: 300;font-family: "Gotham HT F" } 
+	</style>
+	<g id="avis">
+		<g id="&lt;Groupe&gt;">
+			<g id="&lt;Groupe&gt;">
+				<text id="1" style="transform: matrix(2.083,0,0,2.083,-0.547,44.093)" >
+					<tspan x="0" y="0" class="txt0">1
+</tspan>
+				</text>
+				<text id="2" style="transform: matrix(2.083,0,0,2.083,66.12,44.093)" >
+					<tspan x="0" y="0" class="txt1">2
+</tspan>
+				</text>
+				<text id="3" style="transform: matrix(2.083,0,0,2.083,145.287,44.093)" >
+					<tspan x="0" y="0" class="txt1">3
+</tspan>
+				</text>
+				<text id="4" style="transform: matrix(2.083,0,0,2.083,234.87,44.093)" >
+					<tspan x="0" y="0" class="txt1">4
+</tspan>
+				</text>
+				<text id="..." style="transform: matrix(2.083,0,0,2.083,282.787,35.76)" >
+					<tspan x="0" y="0" class="txt1">...
+</tspan>
+				</text>
+				<use id="&lt;Groupe&gt;" href="#img1" x="328" y="3" />
+				<use id="&lt;Groupe&gt;" href="#img2" x="372" y="3" />
+				<use id="&lt;Tracé&gt;" href="#img3" x="401" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
