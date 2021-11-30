@@ -669,6 +669,7 @@
 
 @media screen and (max-width:700px) {
 
+    
     .arcade_container{
         position: absolute;
         top: 0px;
@@ -1051,7 +1052,13 @@
 
 @media screen and (max-width:450px) {
 
+    .title_ingredient img{
 
+        width: 400px;
+        position: relative;
+        left: 20px;
+
+    }
 
     .products{
         transform: translate(1%);
@@ -1295,7 +1302,14 @@
 @media screen and (max-width:400px) {
 
 
-    
+    .title_ingredient img{
+
+        width: 350px;
+        position: relative;
+        left: 20px;
+
+    }
+
 
    
       .utilisations_row{
@@ -1501,6 +1515,15 @@
 
 
 @media screen and (max-width:380px) {
+
+
+    .title_ingredient img{
+
+        width: 300px;
+        position: relative;
+        left: 5px;
+
+    }
 
 
     .prize p {
