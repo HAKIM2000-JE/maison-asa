@@ -590,16 +590,16 @@ INSTAGRAM : @MAISOND’ASA</p>
         
         </div>
 
-        <div className={styles.Insta_mobile} onClick={()=>{openCheckout("https://www.instagram.com/maisondasa/?hl=en")}}>
+        <div className={styles.Insta_mobile}  onClick={()=>{openCheckout("https://www.instagram.com/maisondasa/?hl=en")}}>
 
-           <Image src="/insta_mobile.png" height={1200} width={800} />
+           <img src="/insta_mobile.png"  width="90%"    />
         
         </div>
 
 
         <div className={styles.prize}>
 
-         <Image src="/logo-best spa.png" height={200} width={200} />
+         <img src="/logo-best spa.png" height={200} width={200} />
          <h1>MAISON D'ASA</h1>
         <p>Une invitation au voyage vers le plaisir absolu pour retrouver votre douceur avec des produits naturels et à la marocaine disponible chez le meilleur sap au monde Maison d'Asa</p>
 

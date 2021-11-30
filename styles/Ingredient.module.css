@@ -1177,7 +1177,7 @@
 
   .ajouter_btn{
       position: relative;
-      transform: translate(20%,-40%);
+      transform: translate(15%,-40%);
       font-size: 14px;
       padding: 20px;
     
@@ -1349,6 +1349,16 @@
 }
 
 
+.prize h1{
+    position: relative;
+    left: -40px;
+}
+
+
+.prize img{
+    position: relative;
+    left: -40px;
+}
 
  .texture_small2{
         display: block;
@@ -1616,16 +1626,16 @@
 
 
     .products{
-        transform: translate(1%,-28%);
+        transform: translate(1%,-15%);
     }
 
 
     .ajouter_btn{
-        transform: translate(10%,-150%);
+        transform: translate(5%,-10%);
         font-size: 14px;
     }
     .texture{
-        transform: translate(20%);
+        transform: translate(20%,15%);
     }
 
    .avis_container{
@@ -1634,7 +1644,28 @@
 
    .fq_container{
        transform: translate(5%,-30%);
+      
    }
+
+   .fq_container h2 {
+       position: relative;
+       left: 20px;
+
+   }
+
+
+   .Insta_mobile{
+       transform: translate(8%);
+
+   }
+
+   .fq_row p{
+       font-size: 14px;
+   }
+
+   .fq_row h3{
+    font-size: 14px;
+}
 
 
    .banner{
@@ -1644,6 +1675,10 @@
 
    .prize{
        transform: translate(15%)
+   }
+
+   .anim_mobile{
+       transform: translate(-20%);
    }
 
 
