@@ -1514,12 +1514,42 @@
 
 
     .products{
-        transform: translate(-10%,-30%);
+        transform: translate(1%,-28%);
+    }
+
+
+    .ajouter_btn{
+        transform: translate(10%,-150%);
+        font-size: 14px;
+    }
+    .texture{
+        transform: translate(20%);
     }
 
    .avis_container{
-     transform: translate(10%);
+     transform: translate(15%);
    }
+
+   .fq_container{
+       transform: translate(5%,-30%);
+   }
+
+
+   .banner{
+       transform: translate(15%);
+   }
+
+
+   .prize{
+       transform: translate(15%)
+   }
+
+
+   .products>.certif_row{
+    transform: translate(38%,80%);
+     
+    width: 100%;
+}
 }
 
 
