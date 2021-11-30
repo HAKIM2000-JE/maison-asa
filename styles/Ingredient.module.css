@@ -1128,6 +1128,7 @@
 
 @media screen and (max-width:450px) {
 
+   
     .title_ingredient img{
 
         width: 400px;
@@ -1620,6 +1621,8 @@
 @media screen and (max-width:380px) {
 
 
+
+
     .title_ingredient img{
 
         width: 300px;
@@ -1700,6 +1703,13 @@
     transform: translate(38%,80%);
      
     width: 100%;
+
+
+}
+
+
+.banner p {
+    font-size: 18px;
 }
 }
 
