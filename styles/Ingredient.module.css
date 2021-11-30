@@ -643,8 +643,7 @@
         width: 25%;
     background-color:#e0aa86;
     color: white;
-    font-size: 15px;
-    padding: 10px;
+    
     border: none;
     outline-width: 0;
     transform: translate(-20%,-100%);
@@ -675,6 +674,22 @@
 
 
 @media screen and (max-width:700px) {
+
+
+    .anim_mobile{
+        display: block;
+    }
+
+
+    .anim_mobile img{
+        width: 300px;
+        object-fit: contain;
+        transform: translate(5%,30%);
+    }
+
+    .product_animation{
+        display: none;
+    }
 
     
     .arcade_container{
@@ -843,18 +858,17 @@
 
     }
 
+
+    
     .ajouter_btn{
-        width: 25%;
+        width: 50%;
     background-color:#e0aa86;
     color: white;
-    font-size: 15px;
-    padding: 5px;
+    
     border: none;
     outline-width: 0;
     transform: translate(50%,-80%);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+   
 
     font-family:"futura-light-bt";
     }
@@ -896,15 +910,15 @@
     }
 
     .ajouter_btn_banner{
-        width: 25%;
+        width: 50%;
         background-color:#e0aa86;
         color: white;
         font-size: 15px;
-        padding: 5px;
+        padding: 20px;
         border: none;
         outline-width: 0;
       
-        transform: translate(-40%,-20%);
+        transform: translate(-20%,2%);
         font-family:"futura-light-bt";
     
       }
@@ -921,7 +935,7 @@
           transform: translate(20%);
       }
       .banner p{
-          font-size: 14px;
+          font-size: 18px;
           position: relative;
           width: 350px;
          left: -10%;
@@ -1081,7 +1095,7 @@
     }
 
     .texture{
-        transform: translate(30%);
+        transform: translate(30%,-13%);
     }
 
 
@@ -1289,7 +1303,7 @@
 .fq_container {
     position: relative;
    top: 110px;
-  transform: translate(10%,-50%);
+  transform: translate(10%,-70%);
 }
 
 .fq_container h1{
@@ -1332,7 +1346,7 @@
 
 .ajouter_btn_banner{
   font-size: 10px;
-  transform: translate(-35%);
+  transform: translate(-20%);
 }
 
 .Insta_mobile{
