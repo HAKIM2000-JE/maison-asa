@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&family=Lato:wght@100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&family=Lato:wght@100&display=swap');
 @font-face {
     font-family: "Butler_Regular";
     src: url("../public/font/Butler_Regular.otf");
@@ -721,6 +721,7 @@
       
         width: 80%;
         margin: 0 auto;
+        
        
 
   
@@ -823,7 +824,7 @@
 
     .product_animation{
 
-        transform: translate(-5%);
+        transform: translate(20%);
 
     }
 
@@ -954,11 +955,15 @@
 
 @media screen and (max-width:580px) {
 
-    
+    .space{
+        display: block;
+    }
+
 
     .certif_row{
         position: relative;
         left: 30px;
+        width: 100%;
     }
   
 
@@ -974,9 +979,15 @@
     }
 
 
-    
+     .product_animation{
+         position: relative;
+         left: 5000px;
+     }
     .products{
-        transform: translate(-10%,-2%);
+        /* transform: translate(-5%,-2%); */
+        position: relative;
+        top: -120px;
+        left: 120px;
     }
 
 
@@ -984,6 +995,9 @@
 
 
 @media screen and (max-width:450px) {
+
+
+
 
     .utilisations_row{
         /* display: block;
@@ -1000,8 +1014,7 @@
 
     .product_animation{
         position: relative;
-        left: -50px;
-        top: -60px;
+        
     }
     .certif_row{
        width: 300px;
@@ -1449,4 +1462,105 @@
    .avis_container{
      transform: translate(10%);
    }
+}
+
+
+
+@media screen and (max-width:920px) {
+
+
+
+    .products{
+        position: relative;
+        left: -50px;
+    }
+    .product_animation{
+        position: relative;
+        left: -150px;
+    }
+
+    .ajouter_btn{
+
+        position: relative;
+        left: -130px;
+
+    }
+
+   
+    .certif_row{
+        position: relative;
+        left: -50px;
+        width: 50%;
+
+    }
+
+
+    .fq_container{
+        position: relative;
+        left: -150px;
+        width: 50%;
+    }
+
+
+    .utilisations{
+        position: relative;
+        left: -180px;
+        width: 60%;
+    }
+
+
+    .texture{
+        position: relative;
+        left: -180px;
+     
+    }
+
+    .Images{
+        display: block;
+    }
+
+
+    .image_left_2{
+        display: block;
+    }
+
+
+    .image_left_1{
+        display: none;
+    }
+
+
+
+
+    .avis_container{
+
+        position: relative;
+        left: -150px;
+        width: 50%;
+
+    }
+
+
+    .banner{
+
+        position: relative;
+        left: -170px;
+
+    }
+
+
+    .Insta{
+
+        position: relative;
+        left: -180px;
+
+
+    }
+
+
+    .prize{
+          position: relative;
+        left: -180px;
+
+    }
 }
