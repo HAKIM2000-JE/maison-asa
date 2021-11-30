@@ -677,6 +677,11 @@
     }
 
 
+    .texture{
+        transform: translate(45%);
+    }
+
+
     .Images{
         display: block;
     }
@@ -698,7 +703,7 @@
   
      
 .avis_container{
-    transform: translate(-10%);
+    transform: translate(50%);
        width: 80%;
        
 
@@ -748,9 +753,7 @@
         width: 150px;
     }
     .utilisations{
-        position: relative;
-        left: -50px;
-        top: -50px;
+        transform: translate(40%);
     }
 
     .Ingredient{
@@ -790,7 +793,8 @@
 
 
     .utilisations_row{
-        width: 100%;
+        width: 130%;
+        
 
     }
 
@@ -814,6 +818,7 @@
 
         font-size: 20px;
         position: relative;
+        left: 30px;
        
 
 
@@ -833,10 +838,10 @@
     background-color:#e0aa86;
     color: white;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
     border: none;
     outline-width: 0;
-    transform: translate(-30%,-80%);
+    transform: translate(50%,-80%);
     margin-top: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -900,6 +905,11 @@
          left: -10%;
       }
 
+
+      .certif_row{
+          min-width: 60vw;
+          transform: translate(20%);
+      }
       .banner p{
           font-size: 14px;
           position: relative;
@@ -919,6 +929,15 @@
         left: -40px;
     }
 
+    .banner {
+        transform: translate(22%);
+    }
+
+
+    .prize {
+        transform: translate(22%);
+    }
+   
     .prize h1{
         font-size: 20px;
     }
@@ -950,6 +969,12 @@
         width: 380px;
     }
     
+
+
+    .fq_container{
+        transform: translate(50%);
+    }
+    
 }
 
 
@@ -960,12 +985,23 @@
     }
 
 
-    .certif_row{
+  
+    .avis_container{
         position: relative;
-        left: 30px;
+       left: 50px;
+       
+    }
+
+
+    .products>.certif_row{
+        transform: translate(30%);
+         
         width: 100%;
     }
   
+
+    
+
 
     .texture_text{
         margin-top: 20px;
@@ -984,12 +1020,31 @@
          left: 5000px;
      }
     .products{
-        /* transform: translate(-5%,-2%); */
-        position: relative;
-        top: -120px;
-        left: 120px;
+        transform: translate(-15%,-30%);
+       
+      
     }
 
+    .texture{
+        transform: translate(30%);
+    }
+
+
+
+
+    .fq_container{
+        transform: translate(30%);
+    }
+
+
+    .avis_container{
+        transform: translate(30%);
+    }
+
+
+    .utilisations{
+        transform: translate(18%,-10%);
+    }
 
 }
 
