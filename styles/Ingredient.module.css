@@ -1128,12 +1128,18 @@
     }
 
 
+    .anim_mobile{
+        transform: translate(-10%);
+    }
+
+
+   
     .utilisations_row{
         /* display: block;
         position: relative;
         left: 15px; */
 
-        width: 75%;
+        width: 80%;
         position: relative;
         
         top: -180px;
@@ -1145,6 +1151,12 @@
     }
 
 
+    .utilisations h1{
+        position: relative;
+        top: -160px;
+        margin-top: 30px
+    }
+
     .product_animation{
         position: relative;
         
@@ -1154,7 +1166,7 @@
 
     .certif_row{
       max-width:  100px;
-       transform: translate(50%);
+       transform: translate(70%);
      
   }
 
@@ -1165,9 +1177,9 @@
 
   .ajouter_btn{
       position: relative;
-      transform: translate(30%,-40%);
+      transform: translate(20%,-40%);
       font-size: 14px;
-      padding: 5px;
+      padding: 20px;
     
      
   }
@@ -1333,7 +1345,9 @@
 .prize p {
     position: relative;
     transform: translate(-2%);
+    font-size: 25px;
 }
+
 
 
  .texture_small2{

@@ -276,9 +276,7 @@ export default function Ingredient() {
 
                  
         <div className={styles.utilisations_list}>
-        <div className={styles.space}>
-         <br /><br /><br /><br /><br /><br /><br /><br />
-        </div>
+        
             <div className={styles.utilisations_row}>
             <div className={styles.utilisation_field}>
 
