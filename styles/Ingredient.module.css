@@ -28,6 +28,11 @@
     
 }
 
+
+.anim_mobile{
+    display: none;
+}
+
 .space{
     display: none;
 }
@@ -680,14 +685,7 @@
     }
 
 
-    .arcade{
-        display: none;
-    }
-
-
-    .arcade1{
-        display: block;
-    }
+    
 
     .texture{
         transform: translate(45%);
@@ -972,7 +970,7 @@
         
 
         width:300px;
-        transform: translate(-10%);
+        transform: translate(-5%,-100%);
         
     }
 
@@ -990,12 +988,44 @@
 }
 
 
+@media screen and (max-width:520px) {
+
+
+    .arcade{
+        display: none;
+    }
+
+
+    .arcade1{
+        display: block;
+    }
+
+}
+
 @media screen and (max-width:580px) {
+
+
+   
 
     .space{
         display: block;
     }
 
+
+    .anim_mobile{
+        display: block;
+    }
+
+
+    .anim_mobile img{
+        width: 300px;
+        object-fit: contain;
+        transform: translate(-20%,30%);
+    }
+
+    .product_animation{
+        display: none;
+    }
 
   
     .avis_container{
@@ -1026,6 +1056,19 @@
         left: -40px;
     }
 
+
+    .prize img{
+        position: relative;
+        left: -10px;
+    }
+
+
+    .prize h1{
+        margin: 30px;
+    }
+    .prize p{
+        font-size: 20px;
+    }
 
      .product_animation{
          position: relative;
@@ -1058,6 +1101,14 @@
         transform: translate(18%,-10%);
     }
 
+
+    .ajouter_btn{
+        width: 250px;
+        font-size: 15px;
+        transform: translate(30%,-50%);
+        padding: 20px;
+    }
+
 }
 
 
@@ -1068,6 +1119,7 @@
         width: 400px;
         position: relative;
         left: 20px;
+        top: -100px;
 
     }
 

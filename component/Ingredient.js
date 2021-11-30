@@ -153,7 +153,7 @@ export default function Ingredient() {
 
                </div>
                
-                <video  autoPlay muted width="75%" style={{position:'relative' , top:"120px" , left:"-30px"}} >
+                <video  autoPlay muted width="90%" style={{position:'relative' , top:"120px" , left:"-13px"}} >
 
                  
 
@@ -173,6 +173,12 @@ export default function Ingredient() {
 
 
                 
+            </div>
+
+
+
+            <div className={styles.anim_mobile}>
+              <img src="/_Fichier lié_ (3).png" alt="" />
             </div>
   
 
