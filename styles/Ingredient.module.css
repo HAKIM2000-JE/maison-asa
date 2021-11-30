@@ -1053,6 +1053,10 @@
 
 
 
+    .products{
+        transform: translate(1%);
+    }
+
 
     .utilisations_row{
         /* display: block;
@@ -1066,13 +1070,21 @@
     }
 
 
+    .utilisations{
+        transform: translate(10%,-15%);
+    }
+
 
     .product_animation{
         position: relative;
         
     }
+
+
+
     .certif_row{
-       width: 300px;
+      max-width:  100px;
+       transform: translate(50%);
      
   }
 
@@ -1083,9 +1095,9 @@
 
   .ajouter_btn{
       position: relative;
-      left: -50px;
-      top: -30px;
-      font-size: 12px;
+      transform: translate(30%,-40%);
+      font-size: 14px;
+      padding: 5px;
     
      
   }
@@ -1170,11 +1182,6 @@
 }
 
 
-.certif_row{
-    position: relative;
-    top: -60px;
-  
-}
 
 
 .fq_row{
@@ -1200,6 +1207,7 @@
 .fq_container {
     position: relative;
    top: 110px;
+  transform: translate(10%);
 }
 
 .fq_container h1{
@@ -1212,14 +1220,12 @@
   font-size: 13px;
   max-width: 380px;
   margin-bottom: 10px;
+  position: relative;
+  left: 35px;
 }
 
 .avis_container{
-  width: 50%;
-  margin: 0 auto;
-  position: relative;
-  left: -60px;
-  top: 50px;
+  transform: translate(25%,10%);
 }
 
 
@@ -1230,23 +1236,19 @@
 
 .banner h1{
   font-size: 14px;
-  position: relative;
-  left: 1px;
+   transform: translate(1%);
 
 }
 
 .banner p{
   font-size: 11px;
   position: relative;
-  left: -2px;
+  transform: translate(1%);
 }
 
 .ajouter_btn_banner{
   font-size: 10px;
-  width: 40%;
-  padding: 5px;
-  position: relative;
-  left: 60px;
+  transform: translate(-35%);
 }
 
 .Insta_mobile{
@@ -1258,14 +1260,15 @@
 
 .prize p {
     position: relative;
-    left: 0px;
+    transform: translate(-2%);
 }
 
 
  .texture_small2{
         display: block;
         position: relative;
-        left: -140px;
+        /* left: -140px; */
+        top: -150px;
 
        
     }
