@@ -242,15 +242,15 @@ export default function Ingredient() {
             <div className={styles.Images}>
 
                      <div className={styles.image_left_1} >
-                     <Image src="/image1 (2).png" width="990" height="700"  />
+                     <img src="/image1 (2).png" width="100%"  />
 
                         
                      </div>
 
 
 
-                     <div  className={styles.image_left_2} >
-                     <Image src="/ELEMENTS-v2-mobile-01.png" width="990" height="700"  />
+                     <div  className="" >
+                     <image src="/ELEMENTS-v2-mobile-01.png" width="100%"  />
 
                         
                      </div>
@@ -258,7 +258,7 @@ export default function Ingredient() {
 
 
                      <div className="">
-                     <Image src="/image2 (3).png" width="900" height="700"  />
+                     <img src="/image2 (3).png" width="100%" />
 
                      
 
