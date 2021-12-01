@@ -261,6 +261,9 @@
         width: 100%;
     }
 
+
+
+
     .avis h1{
         font-family:"Butler_Regular" ;
         font-size: 20px;
@@ -277,8 +280,8 @@
         position: relative;
         bottom: 20px;
         text-align: center;
-        font-weight: lighter;
-        font-size: 13px;
+        
+        font-size: 25px;
        
     
     }
@@ -313,13 +316,7 @@
         
     }
 
-    .prodcut_price{
-       
-        font-size: 28px;
-        
-        
-    
-    }
+   
   
   }
 
