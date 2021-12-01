@@ -932,7 +932,115 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
         
 </div>
 
+<Carousel ref={ref} controls={false}  className={styles.certif_carousel} indicators={false}  style={{width:'100%' , display:'grid' ,   placeItems:'center' }} >
 
+
+<div className={styles.controls_certif}>
+      <div onClick={onPrevClick}>
+         <Image src="/maison-d'Asa-_fleche-gauche.svg" width={30} height={30} />
+      </div>
+
+      <div onClick={onNextClick}>
+         <Image src="/maison-d'Asa-_fleche-droite.svg" width={30} height={30} />
+      </div>
+    </div>
+
+<Carousel.Item interval={5000}>
+
+<div className={styles.product}>
+   
+    
+   <Image src="/maison-d'Asa-_certif-locale.svg" width="150" height="150"  />
+
+
+   </div>
+
+
+
+
+</Carousel.Item>
+
+
+
+<Carousel.Item interval={5000}>
+<div className={styles.product} style={{position:"relative" , left:"5px"}}>
+
+   <Image src="/maison-d'Asa-_certif-france.svg" width="150" height="150"  />
+
+   </div>
+
+
+
+
+
+</Carousel.Item>
+
+<Carousel.Item interval={5000}>
+<div className={styles.product} style={{position:"relative" , left:"5px"}} >
+
+   <Image src="/maison-d'Asa-_certif-bio.svg" width="150" height="150"  />
+
+   </div>
+
+
+
+
+
+</Carousel.Item>
+
+
+<Carousel.Item interval={5000}>
+<div className={styles.product} style={{position:"relative" , left:"5px"}}>
+
+   <Image src="/maison-d'Asa-_certif-fraiche.svg" width="150" height="150"  />
+
+   </div>
+
+
+
+
+
+</Carousel.Item>
+
+
+
+<Carousel.Item interval={5000} style={{position:"relative" , left:"5px"}}>
+
+
+
+
+<div className={styles.product}>
+        <Image src="/maison-d'Asa-_certif-fraiche.svg" width="150" height="150" />
+
+        </div>
+
+
+
+
+
+
+</Carousel.Item>
+
+
+
+
+
+
+<Carousel.Item interval={5000} style={{position:"relative" , left:"5px"}}>
+
+<div className={styles.product}>
+        <Image src="/maison-d'Asa-_certif-bio.svg" width="150" height="150"  />
+
+        </div>
+
+
+
+</Carousel.Item>
+
+
+</Carousel>
+
+  <br/> <br/>
 
 
 
