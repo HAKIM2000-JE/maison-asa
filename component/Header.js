@@ -38,8 +38,9 @@ const showHeader = ()=>{
 
     setPageOffset(prevScrollpos)
     
-    
-   
+
+    if (window.scrollY > 110) {
+
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
             // document.getElementById("navbar").style.top = "0";
@@ -56,6 +57,13 @@ const showHeader = ()=>{
             
         }
         prevScrollpos = currentScrollPos;
+
+
+
+    }
+    
+   
+        
       
             
            

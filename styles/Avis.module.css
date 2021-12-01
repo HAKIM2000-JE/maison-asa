@@ -42,18 +42,18 @@
 @media screen and (max-width:450px) {
 
     .title{
-        font-size: 13px;
+        font-size: 16px;
     }
 
 
 
     .header h3{
-        font-size: 12px;
+        font-size: 15px;
     }
 
 
     .Body p{
-        font-size: 11px;
+        font-size: 14px;
         margin-top: 10px;
     }
 

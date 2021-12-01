@@ -207,6 +207,117 @@ export default function Ingredient() {
 
 
 
+
+
+            <Carousel ref={ref} controls={false}  className={styles.certif_carousel} indicators={false}  style={{width:'100%' , display:'grid' ,   placeItems:'center' }} >
+
+
+            <div className={styles.controls_certif}>
+                  <div onClick={onPrevClick}>
+                     <Image src="/maison-d'Asa-_fleche-gauche.svg" width={30} height={30} />
+                  </div>
+
+                  <div onClick={onNextClick}>
+                     <Image src="/maison-d'Asa-_fleche-droite.svg" width={30} height={30} />
+                  </div>
+                </div>
+  
+<Carousel.Item interval={5000}>
+
+<div className={styles.product}>
+               
+                
+               <Image src="/maison-d'Asa-_certif-locale.svg" width="150" height="150"  />
+
+
+               </div>
+
+
+
+  
+</Carousel.Item>
+
+
+
+<Carousel.Item interval={5000}>
+<div className={styles.product} style={{position:"relative" , left:"5px"}}>
+
+               <Image src="/maison-d'Asa-_certif-france.svg" width="150" height="150"  />
+
+               </div>
+
+
+
+
+
+</Carousel.Item>
+
+<Carousel.Item interval={5000}>
+<div className={styles.product} style={{position:"relative" , left:"5px"}} >
+
+               <Image src="/maison-d'Asa-_certif-bio.svg" width="150" height="150"  />
+
+               </div>
+
+
+
+
+
+</Carousel.Item>
+
+
+<Carousel.Item interval={5000}>
+<div className={styles.product} style={{position:"relative" , left:"5px"}}>
+
+               <Image src="/maison-d'Asa-_certif-fraiche.svg" width="150" height="150"  />
+
+               </div>
+
+
+
+
+
+</Carousel.Item>
+
+
+
+<Carousel.Item interval={5000} style={{position:"relative" , left:"5px"}}>
+
+
+
+
+<div className={styles.product}>
+                    <Image src="/maison-d'Asa-_certif-fraiche.svg" width="150" height="150" />
+
+                    </div>
+
+
+
+
+
+
+</Carousel.Item>
+
+
+
+
+
+
+<Carousel.Item interval={5000} style={{position:"relative" , left:"5px"}}>
+
+<div className={styles.product}>
+                    <Image src="/maison-d'Asa-_certif-bio.svg" width="150" height="150"  />
+
+                    </div>
+
+
+
+</Carousel.Item>
+
+
+</Carousel>
+
+
             
            <div className={styles.products}  >
 
@@ -259,15 +370,15 @@ export default function Ingredient() {
 
 
 
-                     <div  className="" >
-                     <image src="/ELEMENTS-v2-mobile-01.png" width="100%"  />
+                     <div  className={styles.image_mobile} >
+                     <img src="/image10.png" width="100%"  />
 
                         
                      </div>
 
 
 
-                     <div className="">
+                     <div className={styles.image_web}>
                      <img src="/image2 (3).png" width="100%" />
 
                      
@@ -336,10 +447,6 @@ export default function Ingredient() {
 </div>
                
             </div>
-
-
-
-           
 
 
 
@@ -419,9 +526,9 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
 
 
         <div className={styles.fq_container}>
-              <h1>F&Q</h1>
+              <h1>FAQ</h1>
            
-              <h2>VOS QUESTIONS FRÉQUENTES SUR LES PRODUITS: </h2>
+              <h2>VOS QUESTIONS FRÉQUENTES SUR LES PRODUITS : </h2>
               <br /><br /><br /> 
               <div className={styles.fq_row}   style={{backgroundColor:`${bg[0]}`}} onClick={ ()=>{seeValue(0)} } >
                  <h3 style={{color:`${color[0]}` , backgroundColor:`${bg[0]}`}}>QUELLE EST LA MEILLEURE FAÇON D'APPLIQUER LE PARFUM ?</h3>
@@ -553,78 +660,78 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
             <div className={styles.related_mobile} >
 
 
-                     <h1>RELATED PRODCUTS </h1>
-                     <br />
+<h1>RELATED PRODCUTS </h1>
+<br />
 
 
-                     <div className={styles.controls}>
-                     <div onClick={onPrevClick}>
-                        <Image src="/maison-d'Asa-_fleche-gauche.svg" width={30} height={30} />
-                     </div>
+<div className={styles.controls}>
+  <div onClick={onPrevClick}>
+     <Image src="/maison-d'Asa-_fleche-gauche.svg" width={30} height={30} />
+  </div>
 
-                     <div onClick={onNextClick}>
-                        <Image src="/maison-d'Asa-_fleche-droite.svg" width={30} height={30} />
-                     </div>
-                     </div>
+  <div onClick={onNextClick}>
+     <Image src="/maison-d'Asa-_fleche-droite.svg" width={30} height={30} />
+  </div>
+</div>
 
-                     <Carousel   ref={ref} style={{width:'80%' , display:'grid', placeItems:'center' }} variant="#DB9D7B" >
-
-
-                     <Carousel.Item interval={5000} >
-                     <div className={styles.related_list}>
-                     {  
-                     products.map((p)=>(
-                        <>
-                        <Product image="/product1.png" link={p.product10.detail_link} title="PILLOW MIST" price={ parseInt(p.product10.price) } /> 
-                        
-                        </>
-                     
-
-                     ))
-                     
-                     } 
-                     </div>
+<Carousel   ref={ref} style={{width:'80%' , display:'grid', placeItems:'center' }} variant="#DB9D7B" >
 
 
-                     </Carousel.Item>
-                     <Carousel.Item interval={5000}>
-                     <div className={styles.related_list}>
-                     {  
-                     products.map((p)=>(
-                        <>
-                     
-                        <Product image="/product2.png" link={p.product4.detail_link}  title="DÉLICES MAROCAINS" price={ parseInt(p.product4.price) } /> 
-                        
-                        </>
-                     
+<Carousel.Item interval={5000} >
+<div className={styles.related_list}>
+{  
+ products.map((p)=>(
+    <>
+    <Product image="/product1.png" link={p.product10.detail_link} title="PILLOW MIST" price={ parseInt(p.product10.price) } /> 
+    
+    </>
+  
 
-                     ))
-                     
-                     } 
-                     </div>
+ ))
+ 
+} 
+</div>
 
 
-                     </Carousel.Item>
+</Carousel.Item>
+<Carousel.Item interval={5000}>
+<div className={styles.related_list}>
+{  
+ products.map((p)=>(
+    <>
+  
+     <Product image="/product2.png" link={p.product4.detail_link}  title="DÉLICES MAROCAINS" price={ parseInt(p.product4.price) } /> 
+    
+    </>
+  
 
-                     <Carousel.Item interval={5000}>
-                     <div className={styles.related_list}>
-                     {  
-                     products.map((p)=>(
-                        <>
-                        <Product image="/product3.png" link={p.product29.detail_link}  title="PILLOW MIST" price={ parseInt(p.product29.price) }   /> 
-                        
-                        
-                        </>
-                     
-
-                     ))
-                     
-                     } 
-                     </div>
+ ))
+ 
+} 
+</div>
 
 
-                     </Carousel.Item>
-                     </Carousel>
+</Carousel.Item>
+
+<Carousel.Item interval={5000}>
+<div className={styles.related_list}>
+{  
+ products.map((p)=>(
+    <>
+    <Product image="/product3.png" link={p.product29.detail_link}  title="PILLOW MIST" price={ parseInt(p.product29.price) }   /> 
+   
+    
+    </>
+  
+
+ ))
+ 
+} 
+</div>
+
+
+</Carousel.Item>
+</Carousel>
 
 
 

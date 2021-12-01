@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=PT+Sans&display=swap');
 @font-face {
     font-family: "Butler_Regular";
     src: url("../public/font/Butler_Regular.otf");
@@ -28,6 +29,11 @@
     
 }
 
+
+
+.image_mobile{
+    display: none;
+}
 
 .anim_mobile{
     display: none;
@@ -493,7 +499,7 @@
 }
 
 .banner h1{
-    font-family:"Hatton-medium" ;
+    font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -1188,7 +1194,35 @@
 @media screen and (max-width:450px) {
 
 
-    
+    .controls_certif{
+        
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            position: relative;
+             top: 100px;
+            z-index: 2;
+            cursor: pointer;
+   
+      
+    }
+
+
+    .image_mobile{
+        display: block;
+    }
+
+    .image_web{
+        display: none;
+    }
+
+    .certif_carousel{
+        transform: translate(10%);
+    }
+    .arcade1{
+        position: relative;
+        top: 100px;
+    }
 
 .related_mobile{
     width: 80%;
@@ -1199,7 +1233,7 @@
 
     .anim_mobile_title{
         position: relative;
-        transform: translate(25%);
+        transform: translate(28%, 50%);
     }
 
 
@@ -1221,7 +1255,7 @@
     }
 
     .products{
-        transform: translate(2%,10%);
+        transform: translate(2%,55%);
     }
 
 
@@ -1260,6 +1294,7 @@
     .certif_row{
       max-width:  100px;
        transform: translate(70%);
+       display: none;
      
   }
 
@@ -1360,10 +1395,11 @@
 
 
 .fq_row{
-    max-width: 300px;
+    width: 100vw;
     position: relative;
-    left: 40px;
+    left: -30px;
     top: -50px;
+    text-align: center;
 }
 
 
@@ -1373,47 +1409,60 @@
 }
 
 .fq_row p{
-  font-size: 12px;
+  font-size: 16px;
   padding: 8px;
+ 
+
   
   
 }
 
 .fq_container {
-    position: relative;
+   position: relative;
    top: 110px;
-  transform: translate(10%,-70%);
+  transform: translate(10%,-60%);
 }
 
 .fq_container h1{
-  margin-top:30px ;
+  margin-top:35px ;
+  font-weight: bold;
   font-size: 30px;
   max-width: 350px;
   position: relative;
   left: 35px;
+  font: bold;
 }
 
 .fq_container h2{
-  font-size: 13px;
+  font-size: 20px;
   max-width: 380px;
   margin-bottom: 10px;
   position: relative;
   left: 35px;
+  font-weight: bold;
 }
 
 .avis_container{
-  transform: translate(25%,-10%);
+  transform: translate(16%,-10%);
+  min-width:95vw;
+  
+
 }
 
 
-.avis_container h1{
-  font-size: 30px;
-}
+
+
+
+.avis_container p{
+    font-size: 20px;
+  }
+  
 
 
 .banner h1{
-  font-size: 14px;
-   transform: translate(1%);
+  font-size: 30px;
+
+   text-align: center;
 
 }
 
@@ -1697,10 +1746,7 @@
 }
 
 
-.banner h1{
-    font-size: 14px;
 
-}
 
 .banner p{
     font-size: 18px;
@@ -1755,7 +1801,7 @@
     .related_mobile{
         position: relative;
         left: -5%;
-        width: 70%;
+        width: 60%;
     }
 
    .anim_mobile_title{
@@ -1829,10 +1875,12 @@
 
    .fq_row p{
        font-size: 14px;
+      
    }
 
    .fq_row h3{
     font-size: 14px;
+    text-align: center;
 }
 
 
