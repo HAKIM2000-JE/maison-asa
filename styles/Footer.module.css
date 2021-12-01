@@ -145,4 +145,14 @@
         
     
     }
+
+    .newInupt{
+        width: 60%;
+        height: 50px;
+        background-color: #eac6ae;
+        border: none;
+         margin-left: 30px;
+
+      
+    }
 }

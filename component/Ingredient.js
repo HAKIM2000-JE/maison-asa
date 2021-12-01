@@ -179,7 +179,7 @@ export default function Ingredient() {
 
             <div className={styles.anim_mobile}>
             <br /><br />
-
+            
                <div className={styles.anim_mobile_title}>
                <img src="ingride.png" alt="" />
                </div>
@@ -336,6 +336,10 @@ export default function Ingredient() {
 </div>
                
             </div>
+
+
+
+           
 
 
 
@@ -549,78 +553,78 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
             <div className={styles.related_mobile} >
 
 
-<h1>RELATED PRODCUTS </h1>
-<br />
+                     <h1>RELATED PRODCUTS </h1>
+                     <br />
 
 
-<div className={styles.controls}>
-  <div onClick={onPrevClick}>
-     <Image src="/maison-d'Asa-_fleche-gauche.svg" width={30} height={30} />
-  </div>
+                     <div className={styles.controls}>
+                     <div onClick={onPrevClick}>
+                        <Image src="/maison-d'Asa-_fleche-gauche.svg" width={30} height={30} />
+                     </div>
 
-  <div onClick={onNextClick}>
-     <Image src="/maison-d'Asa-_fleche-droite.svg" width={30} height={30} />
-  </div>
-</div>
+                     <div onClick={onNextClick}>
+                        <Image src="/maison-d'Asa-_fleche-droite.svg" width={30} height={30} />
+                     </div>
+                     </div>
 
-<Carousel   ref={ref} style={{width:'80%' , display:'grid', placeItems:'center' }} variant="#DB9D7B" >
-
-
-<Carousel.Item interval={5000} >
-<div className={styles.related_list}>
-{  
- products.map((p)=>(
-    <>
-    <Product image="/product1.png" link={p.product10.detail_link} title="PILLOW MIST" price={ parseInt(p.product10.price) } /> 
-    
-    </>
-  
-
- ))
- 
-} 
-</div>
+                     <Carousel   ref={ref} style={{width:'80%' , display:'grid', placeItems:'center' }} variant="#DB9D7B" >
 
 
-</Carousel.Item>
-<Carousel.Item interval={5000}>
-<div className={styles.related_list}>
-{  
- products.map((p)=>(
-    <>
-  
-     <Product image="/product2.png" link={p.product4.detail_link}  title="DÉLICES MAROCAINS" price={ parseInt(p.product4.price) } /> 
-    
-    </>
-  
+                     <Carousel.Item interval={5000} >
+                     <div className={styles.related_list}>
+                     {  
+                     products.map((p)=>(
+                        <>
+                        <Product image="/product1.png" link={p.product10.detail_link} title="PILLOW MIST" price={ parseInt(p.product10.price) } /> 
+                        
+                        </>
+                     
 
- ))
- 
-} 
-</div>
+                     ))
+                     
+                     } 
+                     </div>
 
 
-</Carousel.Item>
+                     </Carousel.Item>
+                     <Carousel.Item interval={5000}>
+                     <div className={styles.related_list}>
+                     {  
+                     products.map((p)=>(
+                        <>
+                     
+                        <Product image="/product2.png" link={p.product4.detail_link}  title="DÉLICES MAROCAINS" price={ parseInt(p.product4.price) } /> 
+                        
+                        </>
+                     
 
-<Carousel.Item interval={5000}>
-<div className={styles.related_list}>
-{  
- products.map((p)=>(
-    <>
-    <Product image="/product3.png" link={p.product29.detail_link}  title="PILLOW MIST" price={ parseInt(p.product29.price) }   /> 
-   
-    
-    </>
-  
-
- ))
- 
-} 
-</div>
+                     ))
+                     
+                     } 
+                     </div>
 
 
-</Carousel.Item>
-</Carousel>
+                     </Carousel.Item>
+
+                     <Carousel.Item interval={5000}>
+                     <div className={styles.related_list}>
+                     {  
+                     products.map((p)=>(
+                        <>
+                        <Product image="/product3.png" link={p.product29.detail_link}  title="PILLOW MIST" price={ parseInt(p.product29.price) }   /> 
+                        
+                        
+                        </>
+                     
+
+                     ))
+                     
+                     } 
+                     </div>
+
+
+                     </Carousel.Item>
+                     </Carousel>
 
 
 
