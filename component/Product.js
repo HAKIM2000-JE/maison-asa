@@ -11,7 +11,10 @@ function Product({image, title , price , link}) {
 
     return (
         <div className={styles.product} >
-           <img src={image}   />
+
+
+        <img src={image}  className={styles.BigImage} />
+           <img src={image} className={styles.smallImage} />
            <div className={styles.avis}>
 
                  

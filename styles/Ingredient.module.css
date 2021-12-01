@@ -1878,13 +1878,20 @@
     }
 
 
+
+    .arcade1{
+        position: relative;
+        top: 50px;
+    }
+
     
 
 
 
     .products{
-        transform: translate(1%,-15%);
+        transform: translate(1%,5%);
     }
+    
 
 
     .ajouter_btn{

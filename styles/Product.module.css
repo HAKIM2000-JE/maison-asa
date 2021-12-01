@@ -20,6 +20,12 @@
 
 
 
+.BigImage{
+     max-width: 300px;
+     height: 300px;
+
+}
+
 
 
 .avis{
@@ -88,6 +94,12 @@
 }
 
 
+
+.smallImage{
+    display: none;
+}
+
+
 .ajouter_btn{
     width: 100%;
     background-color:#e0aa86;
@@ -136,9 +148,21 @@
     }
 
 
+    .smallImage{
+        display: flex;
+    }
 
+ .product Image{
+     display: none;
+ }
   .product img{
       height: fit-content;
+  }
+
+
+  .product .BigImage{
+      display: none;
+
   }
 
     .ajouter_btn{
