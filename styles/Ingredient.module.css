@@ -1171,6 +1171,10 @@
 @media screen and (max-width:450px) {
 
 
+
+    
+
+
     .anim_mobile_title{
         position: relative;
         left: 12px;
@@ -1241,7 +1245,7 @@
   .ajouter_btn{
       position: relative;
       transform: translate(15%,-40%);
-      font-size: 14px;
+      font-size: 20px;
       padding: 20px;
     
      
