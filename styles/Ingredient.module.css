@@ -30,6 +30,13 @@
 }
 
 
+.certif_carousel{
+    display: none;
+}
+
+.controls_certif{
+    display: none;
+}
 
 .image_mobile{
     display: none;
@@ -1217,6 +1224,7 @@
     }
 
     .certif_carousel{
+        display: block;
         transform: translate(10%);
     }
     .arcade1{
