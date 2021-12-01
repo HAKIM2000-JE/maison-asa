@@ -1735,6 +1735,8 @@
 @media screen and (max-width:380px) {
 
 
+
+
     .texture_small2{
         display: block;
         position: relative;
@@ -1752,7 +1754,8 @@
 
     .related_mobile{
         position: relative;
-        left: -10%;
+        left: -5%;
+        width: 70%;
     }
 
    .anim_mobile_title{
