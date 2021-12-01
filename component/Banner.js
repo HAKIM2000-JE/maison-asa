@@ -101,7 +101,7 @@ const openCheckout = (link)=>{
       <h3 className={styles.prodcut_price} >750 MAD</h3>
 
 
-      <button className={styles.ajouter_btn} onClick={()=>{openCheckout("https://boutique.maisondasa.com/fr/anti-age-hydratants/17-creme-visage-bio-delices-marocains-aux-pepites-d-argan.html")}}>ACHETEZ MAINTENANT</button>
+      <button className={styles.ajouter_btn} onClick={()=>{openCheckout("https://boutique.maisondasa.com/fr/commande")}}>ACHETEZ MAINTENANT</button>
 </div>
 
 

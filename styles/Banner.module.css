@@ -146,7 +146,7 @@
 
 .prodcut_price{
     color: #997647;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     top: -50px;
@@ -311,6 +311,14 @@
     .ajouter_btn{
         position: relative;
         
+    }
+
+    .prodcut_price{
+       
+        font-size: 28px;
+        
+        
+    
     }
   
   }
