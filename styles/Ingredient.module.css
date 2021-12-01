@@ -37,6 +37,11 @@
     display: none;
 }
 
+
+.related_mobile{
+    display: none;
+}
+
 .carousel-indicators li { visibility: hidden; }
 
 .product{
@@ -125,7 +130,7 @@
     width: 25%;
     background-color:#e0aa86;
     color: white;
-    font-size: 20px;
+   font-size: 30px;
     padding: 18px;
     border: none;
     outline-width: 0;
@@ -162,7 +167,7 @@
     
     font-family: "futura-light-bt";
 
-    font-size: 20px;
+   font-size: 30px;
 
 }
 
@@ -353,7 +358,7 @@
     width: 25%;
     background-color:#e0aa86;
     color: white;
-    font-size: 20px;
+   font-size: 30px;
     padding: 18px;
     border: none;
     outline-width: 0;
@@ -584,6 +589,28 @@
    
 .related{
     display: none;
+}
+
+.related_mobile{
+    display: block;
+    width: 100%;
+    
+}
+
+
+.related_mobile>h1{
+
+    
+
+    text-align: center;
+    
+    font-family: "futura-light-bt";
+
+    font-size: 40px;
+    position: relative;
+    left: -10%;
+
+    
 }
    
     .products{
@@ -843,7 +870,7 @@
 
     .utilisations h1{
 
-        font-size: 20px;
+       font-size: 30px;
         position: relative;
         left: 30px;
        
@@ -878,7 +905,7 @@
 
 
     .voyage h1{
-        font-size: 20px;
+       font-size: 30px;
         position: relative;
         left: -30px;
         top: 50px;
@@ -966,7 +993,7 @@
     }
    
     .prize h1{
-        font-size: 20px;
+       font-size: 30px;
     }
 
     .prize p{
@@ -1002,6 +1029,13 @@
         transform: translate(50%);
     }
     
+
+    .related_mobile>h1{
+
+
+       font-size: 30px;
+
+    }
 }
 
 
@@ -1084,7 +1118,7 @@
         margin: 30px;
     }
     .prize p{
-        font-size: 20px;
+       font-size: 30px;
     }
 
      .product_animation{
@@ -1323,7 +1357,7 @@
 
 .fq_container h1{
   margin-top:30px ;
-  font-size: 18px;
+  font-size: 30px;
   max-width: 350px;
   position: relative;
   left: 35px;
@@ -1343,7 +1377,7 @@
 
 
 .avis_container h1{
-  font-size: 18px;
+  font-size: 30px;
 }
 
 
@@ -1607,7 +1641,7 @@
  
 
 .avis_container h1{
-    font-size: 18px;
+    font-size: 30px;
     
 }
 
@@ -1646,6 +1680,12 @@
 
 @media screen and (max-width:380px) {
 
+
+
+    .related_mobile{
+        position: relative;
+        left: -10%;
+    }
 
     .anim_mobile_title{
         position: relative;
