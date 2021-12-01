@@ -36,7 +36,7 @@ export default function Ingredient() {
   };
 
   const openCheckout = (link)=>{
-       window.location= link
+       window.location= "https://boutique.maisondasa.com/fr/commande"
    }
 
 
