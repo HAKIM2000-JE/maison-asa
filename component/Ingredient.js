@@ -201,13 +201,16 @@ export default function Ingredient() {
             <br /><br />
             <br /><br /><br /><br />
 
+
+
+            
             
 
             <button className={styles.ajouter_btn} onClick={()=>{openCheckout("https://boutique.maisondasa.com/fr/anti-age-hydratants/17-creme-visage-bio-delices-marocains-aux-pepites-d-argan.html")}} >ACHETEZ MAINTENANT</button>
 
 
 
-
+          
 
             <Carousel ref={ref} controls={false}  className={styles.certif_carousel} indicators={false}  style={{width:'100%' , display:'grid' ,   placeItems:'center' }} >
 
@@ -401,6 +404,123 @@ export default function Ingredient() {
                  <h1>4 USTILISATIONS POSSIBLES </h1>
 
 
+
+
+
+                 <Carousel ref={ref} controls={false}  className={styles.utilisations_carousel} indicators={false}  style={{width:'100%' , display:'grid' ,   placeItems:'center' }} >
+
+
+<div className={styles.controls_use}>
+      <div onClick={onPrevClick}>
+         <Image src="/maison-d'Asa-_fleche-gauche.svg" width={30} height={30} />
+      </div>
+
+      <div onClick={onNextClick}>
+         <Image src="/maison-d'Asa-_fleche-droite.svg" width={30} height={30} />
+      </div>
+    </div>
+
+<Carousel.Item interval={5000}>
+
+<div className={styles.utilisation_field}>
+
+        
+<Image src="/maison-d'Asa-_utilisation-2.svg" width={200} height={200} />
+<p>SUR LES LÈVRES ABÎMÉES
+pour les réparer</p>
+
+</div>
+
+
+
+
+</Carousel.Item>
+
+
+
+<Carousel.Item interval={5000}>
+<div className={styles.utilisation_field}>
+
+<Image src="/maison-d'Asa-_utilisation-1.svg" width={200} height={200} />
+<p>LES POMMETTES  pour donner un fini glowy à son makeup</p>
+</div>
+
+
+
+
+
+</Carousel.Item>
+
+<Carousel.Item interval={5000}>
+<div className={styles.utilisation_field}>
+
+<Image src="/maison-d'Asa-_utilisation-4.svg" width={200} height={200} />
+<p>LES POMMETTES  pour donner un fini glowy à son makeup</p>
+</div>
+
+
+
+
+</Carousel.Item>
+
+
+<Carousel.Item interval={5000}>
+<div className={styles.utilisation_field}>
+
+<Image src="/maison-d'Asa-_utilisation-3.svg" width={200} height={200} />
+<p>LES POMMETTES  pour donner un fini glowy à son makeup</p>
+</div>
+
+
+
+
+</Carousel.Item>
+
+
+
+<Carousel.Item interval={5000} style={{position:"relative" , left:"5px"}}>
+
+
+
+
+<div className={styles.utilisation_field}>
+
+<Image src="/maison-d'Asa-_utilisation-2.svg" width={200}  height={200}   />
+<p>LES POMMETTES  pour donner un fini glowy à son makeup</p>
+</div>
+
+
+
+
+
+
+
+</Carousel.Item>
+
+
+
+
+
+
+<Carousel.Item interval={5000} style={{position:"relative" , left:"5px"}}>
+
+<div className={styles.utilisation_field}>
+
+        
+                    <Image src="/maison-d'Asa-_utilisation-1.svg" width={200} height={200}  />
+                    <p>SUR LES LÈVRES ABÎMÉES
+                    pour les réparer</p>
+
+                    </div>
+
+
+</Carousel.Item>
+
+
+</Carousel>
+
+
+
                  
         <div className={styles.utilisations_list}>
         
@@ -427,7 +547,7 @@ export default function Ingredient() {
              <div className={styles.utilisation_field}>
 
         
-                    <Image src="/maison-d'Asa-_utilisation-3.svg" width={90} height={90} />
+                    <Image src="/maison-d'Asa-_utilisation-3.svg" width={120} height={120} />
                     <p>SUR LES LÈVRES ABÎMÉES
                     pour les réparer</p>
 

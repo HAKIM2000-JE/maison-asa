@@ -30,13 +30,17 @@
 }
 
 
+.utilisations_carousel{
+
+    display: none;
+
+}
+
 .certif_carousel{
     display: none;
 }
 
-.controls_certif{
-    display: none;
-}
+
 
 .image_mobile{
     display: none;
@@ -264,7 +268,7 @@
     display: grid;
     place-items: center;
 
-    font-size: 13px;
+    font-size: 18px;
 
     width: 150px;
     text-align: center;
@@ -896,6 +900,7 @@
 
     .utilisation_field p{
         width: 150px;
+        font-size: 18px;
     }
 
     .utilisations h1{
@@ -1200,6 +1205,10 @@
 
 @media screen and (max-width:450px) {
 
+    .utilisations_list{
+        display: none;
+    }
+
 
     .controls_certif{
         
@@ -1215,6 +1224,21 @@
     }
 
 
+    .controls_use{
+        
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        position: relative;
+         top: 150px;
+         left: 10px;
+        z-index: 2;
+        cursor: pointer;
+
+  
+}
+
+
     .image_mobile{
         display: block;
     }
@@ -1226,6 +1250,14 @@
     .certif_carousel{
         display: block;
         transform: translate(10%);
+    }
+
+
+    .utilisations_carousel{
+        
+        display: block;
+        transform: translate(10%,-55%);
+
     }
     .arcade1{
         position: relative;
@@ -1289,7 +1321,10 @@
     .utilisations h1{
         position: relative;
         top: -160px;
-        margin-top: 30px
+        margin-top: 30px;
+        width: 120%;
+        left: 50px;
+        
     }
 
     .product_animation{

@@ -11,7 +11,7 @@ function Product({image, title , price , link}) {
 
     return (
         <div className={styles.product} >
-           <Image src={image} height={350} width={300} />
+           <img src={image}   />
            <div className={styles.avis}>
 
                  
