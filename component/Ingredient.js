@@ -178,6 +178,12 @@ export default function Ingredient() {
 
 
             <div className={styles.anim_mobile}>
+            <br /><br />
+
+               <div className={styles.anim_mobile_title}>
+               <img src="ingride.svg" alt="" />
+               </div>
+              <br /><br />
               <img src="/_Fichier lié_ (3).png" alt="" />
             </div>
   
