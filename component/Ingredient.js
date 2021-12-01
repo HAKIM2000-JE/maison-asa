@@ -184,8 +184,18 @@ export default function Ingredient() {
                <img src="ingride.png" alt="" />
                </div>
               <br /><br />
-              <img src="/_Fichier lié_ (3).png" alt="" />
-            </div>
+              <video  autoPlay muted width="70%" style={{position:'relative' , top:"120px" }} >
+
+                 
+
+                  <source src="/animation-mobile (1).mov" 
+                        type="video/mp4"/>
+
+
+
+                  Sorry, your browser doesn't support embedded videos.
+                  </video>
+                              </div>
   
 
             <br /><br />

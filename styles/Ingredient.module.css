@@ -710,10 +710,11 @@
     }
 
 
-    .anim_mobile img{
-        width: 300px;
-        object-fit: contain;
-        transform: translate(5%,30%);
+
+
+    .anim_mobile video{
+        
+       transform: translate(15%,-10%);
     }
 
     .product_animation{
@@ -1177,7 +1178,7 @@
 
     .anim_mobile_title{
         position: relative;
-        left: 12px;
+        left: 170px;
     }
 
    
@@ -1463,11 +1464,19 @@
     
     }
 
+
+    .Insta_mobile{
+        background-color: #fafafa;
+    }
+
+
 }
 
 
 @media screen and (max-width:400px) {
 
+
+  
 
     .fq_container h1{
   
