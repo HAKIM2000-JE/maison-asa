@@ -1432,11 +1432,16 @@
         display: block;
         position: relative;
         /* left: -140px; */
-        top: -300px;
+        left: -17px;
+        top: -250px;
 
        
     }
 
+
+    .texture_small2 img{
+        object-fit: contain;
+    }
 
 
     .texture_text{
@@ -1694,6 +1699,20 @@
 
 
 @media screen and (max-width:380px) {
+
+
+    .texture_small2{
+        display: block;
+        position: relative;
+        /* left: -140px; */
+        left: -2px;
+        top: -300px;
+
+       
+    }
+
+
+    
 
 
 

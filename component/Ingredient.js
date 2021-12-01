@@ -337,7 +337,7 @@ export default function Ingredient() {
 
 
                <div className={styles.texture_small2}>
-                  <Image src="/texture.png" width={300} height={600} />
+                  <img src="/texture.png" width="85%" />
                </div>
 
 
