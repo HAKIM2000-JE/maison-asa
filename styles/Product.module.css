@@ -41,7 +41,7 @@
     width: 50%;
     position: absolute;
     top: 5%;
-    font-weight: lighter;
+    font-weight: bold;
     text-align: center;
    
      
@@ -62,7 +62,7 @@
 
 .avis_image{
     position: relative;
-    bottom: 60px;
+    bottom: 10px;
     display: none;
 }
 
@@ -101,8 +101,20 @@
       margin-left:10px ;
       margin-right:10px ;
 
+
   }
 
 
 
+  .avis_image{
+    display: block;
+  
 }
+
+
+
+  
+
+}
+
+

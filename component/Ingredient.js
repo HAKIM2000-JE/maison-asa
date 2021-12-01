@@ -561,7 +561,7 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
 {  
  products.map((p)=>(
     <>
-    <Product image="/product1.png" link={p.product10.detail_link} title={p.product10.meta_title[1].value} price={ parseInt(p.product10.price) } /> 
+    <Product image="/product1.png" link={p.product10.detail_link} title="PILLOW MIST" price={ parseInt(p.product10.price) } /> 
     
     </>
   
@@ -579,7 +579,7 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
  products.map((p)=>(
     <>
   
-     <Product image="/product2.png" link={p.product4.detail_link}  title={p.product4.meta_title[1].value} price={ parseInt(p.product4.price) } /> 
+     <Product image="/product2.png" link={p.product4.detail_link}  title="DÉLICES MAROCAINS" price={ parseInt(p.product4.price) } /> 
     
     </>
   
@@ -597,7 +597,7 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
 {  
  products.map((p)=>(
     <>
-    <Product image="/product3.png" link={p.product29.detail_link}  title={p.product29.meta_title[1].value} price={ parseInt(p.product29.price) }   /> 
+    <Product image="/product3.png" link={p.product29.detail_link}  title="PILLOW MIST" price={ parseInt(p.product29.price) }   /> 
    
     
     </>
