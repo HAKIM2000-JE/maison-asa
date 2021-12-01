@@ -868,50 +868,8 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
 
 
 
-    <div className={styles.products} style={{backgroundColor:"transparent" }}>
-    <div className={styles.space}>
-         <br /><br /><br /><br /><br /> <br />
-        </div>
-         <div className={styles.utilisations_row}>
-         <div className={styles.product}>
-
-<Image src="/_Groupe_1.svg" width="70" height="70"  />
-<p>PRODUITS ENGAGÉS,
-    NATURELS ET BIOLIGIQUE</p>
-
-</div>
-
-<div className={styles.product}>
-
-<Image src="/maison-d'Asa-_livraison.svg" width="90" height="90"  />
-<p>LIVRAISON OFFERTE
-À PARTIR DE 150€</p>
-</div>
-         </div>
-
-
-         <div className={styles.utilisations_row}>
-           
-         <div className={styles.product}>
-                <Image src="/maison-d'Asa-_hand.svg" width="90" height="90"  />
-                <p>NOUS CONTACTER
-MAIL : HELLO@MAISOND’ASA.CO
-INSTAGRAM : @MAISOND’ASA</p>
-                </div>
-
-                <div className={styles.product}>
-                <Image src="/maison-d'Asa-_payement.svg" width="90" height="90" />
-                <p>PAIEMENTS SÉCURISÉS</p>
-                </div>
-         </div>
-
-        
-
-        </div>
-
-        
           
-
+     <br/><br/><br/>
     
 
 
