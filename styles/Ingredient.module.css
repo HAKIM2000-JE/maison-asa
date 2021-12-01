@@ -284,6 +284,8 @@
 .texture{
     display: grid;
     place-items: center;
+    position: relative;
+    top: 150px;
   }
   
   
