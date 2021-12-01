@@ -705,6 +705,13 @@
 @media screen and (max-width:700px) {
 
 
+    .arcade1{
+        position: relative;
+        top: -5px;
+    }
+
+
+
     .anim_mobile_title{
         position: relative;
         transform: translate(32%);
@@ -1181,7 +1188,12 @@
 @media screen and (max-width:450px) {
 
 
+    
 
+.related_mobile{
+    width: 80%;
+    transform: translate(-10%);
+}
     
 
 
