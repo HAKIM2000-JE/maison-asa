@@ -1469,6 +1469,10 @@
     }
 
 
+    .avis_container h1{
+        font-size: 30px;
+      }
+
    
       .utilisations_row{
           /* display: block;
@@ -1482,12 +1486,7 @@
       }
 
 
-      .utilisations{
-          position: relative;
-          top: -10px;
-          display: none;
-      }
-
+    
 
 
       .product_animation{
