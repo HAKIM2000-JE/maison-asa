@@ -358,7 +358,7 @@
     width: 25%;
     background-color:#e0aa86;
     color: white;
-   font-size: 30px;
+    font-size: 20px;
     padding: 18px;
     border: none;
     outline-width: 0;
@@ -672,7 +672,7 @@
         width: 25%;
     background-color:#e0aa86;
     color: white;
-    
+    font-size: 20px;
     border: none;
     outline-width: 0;
     transform: translate(-20%,-100%);
