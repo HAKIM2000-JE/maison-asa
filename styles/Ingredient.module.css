@@ -1284,7 +1284,7 @@
 
     .anim_mobile_title{
         position: relative;
-        transform: translate(28%, 50%);
+        transform: translate(28%, -20%);
     }
 
 
@@ -1293,6 +1293,7 @@
         display: block;
         position: relative;
         left: -50px;
+        top: -30px;
     }
 
    
@@ -1301,12 +1302,13 @@
         width: 400px;
         position: relative;
         left: 20px;
-        top: -100px;
+        
 
     }
 
     .products{
         transform: translate(2%,55%);
+        opacity: 0;
     }
 
 
@@ -1620,6 +1622,7 @@
         width: 350px;
         position: relative;
         left: 20px;
+      
 
     }
 
