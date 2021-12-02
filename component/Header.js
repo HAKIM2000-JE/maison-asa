@@ -39,7 +39,7 @@ const showHeader = ()=>{
     setPageOffset(prevScrollpos)
     
 
-    if (window.scrollY > 110) {
+    if (window.scrollY > 200) {
 
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
