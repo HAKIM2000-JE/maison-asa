@@ -211,7 +211,7 @@ export default function Ingredient() {
 
 
           
-
+<div className={styles.Carousel_container}>
             <Carousel ref={ref} controls={false}  className={styles.certif_carousel} indicators={false}  style={{width:'100%' , display:'grid' ,   placeItems:'center' }} >
 
 
@@ -320,6 +320,8 @@ export default function Ingredient() {
 
 </Carousel>
 
+</div>
+
 
             
            <div className={styles.products}  >
@@ -405,7 +407,7 @@ export default function Ingredient() {
 
 
 
-
+<div className={styles.Carousel_container} >
 
                  <Carousel ref={ref} controls={false}  className={styles.utilisations_carousel} indicators={false}  style={{width:'100%' , display:'grid' ,   placeItems:'center' }} >
 
@@ -518,6 +520,8 @@ pour les réparer</p>
 
 
 </Carousel>
+
+</div>
 
 
 
@@ -932,6 +936,9 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
         
 </div>
 
+
+<div className={styles.Carousel_container}>
+
 <Carousel ref={ref} controls={false}  className={styles.certif_carousel} indicators={false}  style={{width:'100%' , display:'grid' ,   placeItems:'center' }} >
 
 
@@ -1039,6 +1046,9 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
 
 
 </Carousel>
+
+</div>
+
 
   <br/> <br/>
 

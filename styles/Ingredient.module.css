@@ -412,6 +412,10 @@
 
   }
 
+
+  .Carousel_container{
+      display: none;
+  }
   
 .comment_section_header{
     display: flex;
@@ -1204,6 +1208,13 @@
 
 
 @media screen and (max-width:450px) {
+
+
+    .Carousel_container{
+        display: block;
+        width: 100%;
+        min-height: 200px;
+    }
 
     .utilisations_list{
         display: none;
