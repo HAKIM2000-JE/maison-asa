@@ -313,7 +313,7 @@
   
   .texture_title1 {
     font-size: 40px;
-    font-family: 'PT Sans', sans-serif;
+    font-family:  'Lato', sans-serif;
     text-align: end;
     width: 400px;
     font-weight: 30;
@@ -331,7 +331,7 @@
   .texture_title2{
 
     font-size: 40px;
-    font-family: 'PT Sans', sans-serif;
+    font-family:  'Lato', sans-serif;
     text-align: left;
     width: 400px;
     font-weight: 30;
@@ -1284,7 +1284,7 @@
 
     .anim_mobile_title{
         position: relative;
-        transform: translate(28%, -20%);
+        transform: translate(28%, 10%);
     }
 
 
