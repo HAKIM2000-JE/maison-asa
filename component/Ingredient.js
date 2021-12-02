@@ -144,7 +144,7 @@ export default function Ingredient() {
                  <Carousel ref={ref} controls={false}  className={styles.utilisations_carousel} indicators={false}  style={{width:'100%' , display:'grid' ,   placeItems:'center' }} >
 
 
-<div className={styles.controls_use} style={{width:"50%", position:"relative" , left:"-10px"}}>
+<div className={styles.controls_use} style={{width:"50%", position:"relative" , left:"-10px" , top:"150px"}}>
       <div onClick={onPrevClick}>
          <Image src="/maison-d'Asa-_fleche-gauche.svg" width={30} height={30} />
       </div>
@@ -159,7 +159,7 @@ export default function Ingredient() {
 <div className={styles.product}>
 
 <Image src="/_Groupe_1.svg" width="70" height="70"  />
-<p>PRODUITS ENGAGÉS, NATURELS ET BIOLOGIQUES</p>
+<p style={{"fontSize":"15px"}} >PRODUITS ENGAGÉS, NATURELS ET BIOLOGIQUES</p>
 
 </div>
 
@@ -173,7 +173,7 @@ export default function Ingredient() {
 <Carousel.Item interval={5000}>
 <div className={styles.product}>
                 <Image src="/maison-d'Asa-_payement.svg" width="120" height="120" />
-                <p>PAIEMENT SECURISÉ</p>
+                <p style={{"fontSize":"15px"}}>PAIEMENT SECURISÉ</p>
                 </div>
 
 
@@ -186,7 +186,7 @@ export default function Ingredient() {
 <div className={styles.product}>
 
 <Image src="/maison-d'Asa-_livraison.svg" width="120" height="120"  />
-<p>LIVRAISON OFFERTE dès 150 €</p>
+<p style={{"fontSize":"15px"}}>LIVRAISON OFFERTE dès 150 €</p>
 </div>
 
 
@@ -197,7 +197,7 @@ export default function Ingredient() {
 <Carousel.Item interval={5000}>
 <div className={styles.product}>
                 <Image src="/maison-d'Asa-_hand.svg" width="120" height="120"  />
-                <p>FIDÉLITÉ RÉCOMPENSÉE Plus vous achetez, plus vous cumulez des avantages et remises</p>
+                <p style={{"fontSize":"15px"}}>FIDÉLITÉ RÉCOMPENSÉE Plus vous achetez, plus vous cumulez des avantages et remises</p>
                 </div>
 
 

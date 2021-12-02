@@ -19,13 +19,13 @@ function Footer() {
         <div className={styles.left}>
            <div className={styles.options}>
                <div className={styles.option}>
-                 <h1>LIVRAISON</h1>
+                 <h1 onClick={()=>{openCheckout("https://www.fedex.com/en-fr/conditions-of-carriage.html")}}>LIVRAISON</h1>
                   <p onClick={()=>{openCheckout("https://www.fedex.com/en-fr/conditions-of-carriage.html")}} >Fedex Express Aramex</p>
 
                </div>
 
                <div className={styles.option}>
-                 <h1>COMPAGNIE</h1>
+                 <h1 onClick={()=>{openCheckout("https://boutique.maisondasa.com/fr/content/2-mentions-legales")}}>COMPAGNIE</h1>
                   <p onClick={()=>{openCheckout("https://boutique.maisondasa.com/fr/content/2-mentions-legales")}} >Mentions Légales 
 Conditions Générales de vente</p>
 
