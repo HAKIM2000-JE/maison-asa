@@ -1,6 +1,13 @@
 import styles from '../styles/Footer.module.css'
 import Image from 'next/image'
 function Footer() {
+
+
+  const openCheckout = (link)=>{
+    window.location= link
+}
+
+
     return (
 
 
@@ -13,20 +20,20 @@ function Footer() {
            <div className={styles.options}>
                <div className={styles.option}>
                  <h1>LIVRAISON</h1>
-                  <p>Fedex Express Aramex</p>
+                  <p onClick={()=>{openCheckout("https://www.fedex.com/en-fr/conditions-of-carriage.html")}} >Fedex Express Aramex</p>
 
                </div>
 
                <div className={styles.option}>
                  <h1>COMPAGNIE</h1>
-                  <p>Mentions Légales 
+                  <p onClick={()=>{openCheckout("https://boutique.maisondasa.com/fr/content/2-mentions-legales")}} >Mentions Légales 
 Conditions Générales de vente</p>
 
                </div>
 
                <div className={styles.option}>
                  <h1>SERVICE CLIENTELE</h1>
-                  <p>Contactez-Nous</p>
+                  <p onClick={()=>{openCheckout("https://boutique.maisondasa.com/fr/nous-contacter")}} >Contactez-Nous</p>
 
                </div>
 
