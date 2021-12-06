@@ -758,24 +758,24 @@ La crème doit systématiquement s'accompagner d'un massage du visage. Cela perm
                  <p style={{display:`${visibility[2]}`}}>Cette crème est très prisée de peaux dites "fragiles" car sa composition exemplaire, sans allergène, est très douce avec la peau.</p>
               </div>
               
-              <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
+              <div className={styles.fq_row} style={{backgroundColor:`${bg[3]}`}} onClick={()=>{seeValue(3)}}>
                  <h3 style={{color:`${color[3]}`  }}>Est-ce plutôt une crème de jour ou de nuit ?</h3>
                  
                  <p style={{display:`${visibility[3]}`}}>Les deux, mon général ! Cette crème est parfaite le matin car elle pénètre vite et permet de démarrer sa journée ! Le soir, elle apporte un confort hydratant précieux à la peau. Nous vous conseillons, pour simplifier votre routine, d'appliquer la crème le matin et l'huile le soir.</p>
               </div>
-              <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
+              <div className={styles.fq_row} style={{backgroundColor:`${bg[4]}`}} onClick={()=>{seeValue(4)}}>
                  <h3 style={{color:`${color[4]}`  }}>Peut-on l’utiliser comme base de maquillage ?</h3>
                  
                  <p style={{display:`${visibility[4]}`}}>Oui, il est tout à fait possible de l'utiliser comme base de maquillage puisque sa texture fluide pénètre vite. Il est néanmoins important de ne pas en mettre une trop grande quantité.</p>
               </div>
-              <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
+              <div className={styles.fq_row} style={{backgroundColor:`${bg[5]}`}} onClick={()=>{seeValue(5)}}>
                  <h3 style={{color:`${color[5]}`  }}>Peut-on l’utiliser autour des yeux ?</h3>
                  
                  <p style={{display:`${visibility[5]}`}}>Bien évidemment ! pour éradiquer les rides autour des yeux</p>
               </div>
               
               
-               <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
+               <div className={styles.fq_row} style={{backgroundColor:`${bg[6]}`}} onClick={()=>{seeValue(6)}}>
                  <h3 style={{color:`${color[6]}`  }}>Est-elle testée sous contrôle dermatologique ?
 </h3>
                  
