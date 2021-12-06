@@ -88,10 +88,10 @@ const showHeader = ()=>{
                 </div>
                 <div className={main} id="mainListDiv">
                     <ul>
-                        <li ><a href="#">Fragrances</a></li>
-                        <li ><a href="#">Skincare</a></li>
-                        <li ><a href="#">About</a></li>
-                        <li ><a href="#">Search</a></li>
+                        <li ><a href="https://boutique.maisondasa.com/fr/37-corps">Fragrances</a></li>
+                        <li ><a href="https://boutique.maisondasa.com/fr/36-visage">Skincare</a></li>
+                        <li ><a href="https://boutique.maisondasa.com/fr/30-interieurs">About</a></li>
+                        <li ><a href="https://boutique.maisondasa.com/fr/35-cheveux">Search</a></li>
 
                         <li style={{  display :"flex" , justifyContent :"space-around" }} className="shop" >
                         <Image src="/recherche.svg" width="20" height="20" />
