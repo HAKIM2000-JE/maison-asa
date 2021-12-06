@@ -19,9 +19,9 @@ import { Carousel, Button, Container, Row } from "react-bootstrap";
 
 export default function Ingredient() {
 
-    const [visibility, setvisiblity] = useState(Array(3).fill('none'))
-    const [color, setColor] = useState(Array(3).fill(''))
-    const [bg, setBg] = useState(Array(3).fill(''))
+    const [visibility, setvisiblity] = useState(Array(7).fill('none'))
+    const [color, setColor] = useState(Array(7).fill(''))
+    const [bg, setBg] = useState(Array(7).fill(''))
 
 
     const [index, setIndex] = useState(0);
@@ -65,9 +65,9 @@ export default function Ingredient() {
   }, [])
 
     const seeValue = (i)=>{
-        const styleList = Array(3).fill('none')
-        const styleColor = Array(3).fill('')
-        const styleBg = Array(3).fill('')
+        const styleList = Array(7).fill('none')
+        const styleColor = Array(7).fill('')
+        const styleBg = Array(7).fill('')
         if(visibility[i]=='block'){
             styleList[i]='none'
             
@@ -738,21 +738,48 @@ i love it!" title="NIHON" rating="/stars5.svg"  impression="IN LOVE" date="12/04
               <h2>VOS QUESTIONS FRÉQUENTES SUR LES PRODUITS : </h2>
               <br /><br /><br /> 
               <div className={styles.fq_row}   style={{backgroundColor:`${bg[0]}`}} onClick={ ()=>{seeValue(0)} } >
-                 <h3 style={{color:`${color[0]}` , backgroundColor:`${bg[0]}`}}>QUELLE EST LA MEILLEURE FAÇON D'APPLIQUER LE PARFUM ?</h3>
+                 <h3 style={{color:`${color[0]}` , backgroundColor:`${bg[0]}`}}>comment bien l’utiliser pour un résultat liftant et immédiat ?
+</h3>
                  
-                 <p style={{display:`${visibility[0]}`}} >C'est tout un art. A l'inverse de ce qui est souvent communiqué,   certains des meilleurs endroits pour appliquer du parfum sur le   corps sont parfois incongrus, comme le pli du coude et même   l'arrière du genou. On peut aussi les vaporiser sur les poignets. Ce   qu'il faut retenir: le parfum tient plus longtemps sur les parties   chaudes de votre corps. </p>
+                 <p style={{display:`${visibility[0]}`}} >Appliquez la crème le matin et le soir sur une peau parfaitement propre et démaquillée. Une fois que l'on a fait peau nette, on commence par déposer un peu de crème dans le creux de sa main que l'on applique par pressions des paumes de main sur le front, le menton et les joues.
+La crème doit systématiquement s'accompagner d'un massage du visage. Cela permet d'augmenter l'efficacité de la crème en faisant bien pénétrer tous ses actifs, mais aussi de tonifier les muscles, de booster la circulation sanguine et de stimuler le renouvellement des cellules du visage. La peau se régénère plus vite avec une meilleure qualité
+</p>
               </div>
 
               <div className={styles.fq_row}  style={{backgroundColor:`${bg[1]}`}} onClick={()=>{seeValue(1)}}>
-                 <h3 style={{color:`${color[1]}` }}>QUELLE EST LA MEILLEURE FAÇON D'APPLIQUER LE PARFUM ?</h3>
+                 <h3 style={{color:`${color[1]}` }}>A quel type de peau est-elle adaptée ?</h3>
                  
-                 <p style={{display:`${visibility[1]}`}}>C'est tout un art. A l'inverse de ce qui est souvent communiqué,   certains des meilleurs endroits pour appliquer du parfum sur le   corps sont parfois incongrus, comme le pli du coude et même   l'arrière du genou. On peut aussi les vaporiser sur les poignets. Ce   qu'il faut retenir: le parfum tient plus longtemps sur les parties   chaudes de votre corps. </p>
+                 <p style={{display:`${visibility[1]}`}}>Cette crème a été pensée comme un soin anti-âge universel pouvant convenir à toutes les peaux. Elle est souple et fondante pour aider la peau à retrouver sa jeunesse grâce notamment aux ingrédients purement naturels. </p>
               </div>
 
               <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
-                 <h3 style={{color:`${color[2]}`  }}>QUELLE EST LA MEILLEURE FAÇON D'APPLIQUER LE PARFUM ?</h3>
+                 <h3 style={{color:`${color[2]}`  }}>J’ai un peau réactive, est-elle adaptée ?</h3>
                  
-                 <p style={{display:`${visibility[2]}`}}>C'est tout un art. A l'inverse de ce qui est souvent communiqué,   certains des meilleurs endroits pour appliquer du parfum sur le   corps sont parfois incongrus, comme le pli du coude et même   l'arrière du genou. On peut aussi les vaporiser sur les poignets. Ce   qu'il faut retenir: le parfum tient plus longtemps sur les parties   chaudes de votre corps. </p>
+                 <p style={{display:`${visibility[2]}`}}>Cette crème est très prisée de peaux dites "fragiles" car sa composition exemplaire, sans allergène, est très douce avec la peau.</p>
+              </div>
+              
+              <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
+                 <h3 style={{color:`${color[3]}`  }}>Est-ce plutôt une crème de jour ou de nuit ?</h3>
+                 
+                 <p style={{display:`${visibility[3]}`}}>Les deux, mon général ! Cette crème est parfaite le matin car elle pénètre vite et permet de démarrer sa journée ! Le soir, elle apporte un confort hydratant précieux à la peau. Nous vous conseillons, pour simplifier votre routine, d'appliquer la crème le matin et l'huile le soir.</p>
+              </div>
+              <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
+                 <h3 style={{color:`${color[4]}`  }}>Peut-on l’utiliser comme base de maquillage ?</h3>
+                 
+                 <p style={{display:`${visibility[4]}`}}>Oui, il est tout à fait possible de l'utiliser comme base de maquillage puisque sa texture fluide pénètre vite. Il est néanmoins important de ne pas en mettre une trop grande quantité.</p>
+              </div>
+              <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
+                 <h3 style={{color:`${color[5]}`  }}>Peut-on l’utiliser autour des yeux ?</h3>
+                 
+                 <p style={{display:`${visibility[5]}`}}>Bien évidemment ! pour éradiquer les rides autour des yeux</p>
+              </div>
+              
+              
+               <div className={styles.fq_row} style={{backgroundColor:`${bg[2]}`}} onClick={()=>{seeValue(2)}}>
+                 <h3 style={{color:`${color[6]}`  }}>Est-elle testée sous contrôle dermatologique ?
+</h3>
+                 
+                 <p style={{display:`${visibility[6]}`}}>Oui, chacun de nos produits est testé sous contrôle dermatologique pour s'assurer que celui-ci est toléré et contient des vertus pour la peau.</p>
               </div>
               
            </div>
